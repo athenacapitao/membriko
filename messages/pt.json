@@ -1,0 +1,17 @@
+{
+  "Navigation": {
+    "home": "Início",
+    "applications": "Aplicações",
+    "about": "Sobre",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "quote": "Orçamento"
+  },
+  "Home": {
+    "hero": {
+      "title": "Membranas EPDM em Portugal",
+      "subtitle": "A melhor solução de impermeabilização para o seu projeto",
+      "cta": "Solicitar Orçamento"
+    }
+  }
+}

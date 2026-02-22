@@ -1,0 +1,17 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "applications": "Applications",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "Home": {
+    "hero": {
+      "title": "EPDM Membranes in Portugal",
+      "subtitle": "The best waterproofing solution for your project",
+      "cta": "Get a Quote"
+    }
+  }
+}
