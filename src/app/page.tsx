@@ -4,3 +4,6 @@ import { redirect } from 'next/navigation'
 export default function Root() {
   redirect('/pt')
 }
+
+// Make this dynamic so the redirect works
+export const dynamic = 'force-dynamic'

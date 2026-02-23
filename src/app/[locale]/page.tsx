@@ -2,6 +2,9 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { generateMetadata } from './metadata';
+
+export { generateMetadata };
 
 export default async function HomePage({
   params,
