@@ -1,11 +1,4 @@
-import createMiddleware from 'next-intl/middleware'
-
-export default createMiddleware({
-  locales: ['pt', 'en'],
-  defaultLocale: 'pt',
-  localePrefix: 'always'
-})
-
+// No middleware - let the root page handle redirection
 export const config = {
-  matcher: ['/', '/(pt|en)/:path*']
+  matcher: []
 }
