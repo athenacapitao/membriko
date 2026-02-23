@@ -11,5 +11,237 @@
       "title": "A Melhor Solução EPDM de Portugal",
       "subtitle": "50+ anos de durabilidade, resistência total, 100% reciclável."
     }
+  },
+  "Applications": {
+    "title": "Aplicações EPDM",
+    "subtitle": "Cobrimos todos os tipos de aplicações EPDM, desde telhados residenciais a piscinas públicas.",
+    "benefits": "Benefícios",
+    "specs": "Especificações Técnicas",
+    "relatedTitle": "Aplicações Relacionadas",
+    "ctaTitle": "Pronto para o seu projeto?",
+    "ctaSubtitle": "Peça um orçamento personalizado para a sua aplicação.",
+    "ctaButton": "Pedir Orçamento",
+    "backToAll": "← Todas as Aplicações",
+    "flat-roofs": {
+      "title": "Telhados Planos",
+      "description": "Impermeabilização duradoura para telhados planos comerciais e residenciais",
+      "benefits": {
+        "1": { "title": "Durabilidade Superior", "desc": "Vida útil superior a 50 anos sem degradação" },
+        "2": { "title": "Resistência UV", "desc": "Mantém propriedades sob exposição solar contínua" },
+        "3": { "title": "Flexibilidade", "desc": "Adapta-se a movimentos estruturais sem fissurar" },
+        "4": { "title": "Instalação Rápida", "desc": "Peças de grandes dimensões reduzem tempo de instalação" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "pitched-roofs": {
+      "title": "Telhados Inclinados",
+      "description": "Solução flexível para telhados inclinados com excelente resistência UV",
+      "benefits": {
+        "1": { "title": "Adaptação a Inclinações", "desc": "Flexibilidade total para qualquer grau de inclinação" },
+        "2": { "title": "Resistência a Intempéries", "desc": "Protege contra chuva, granizo e vento forte" },
+        "3": { "title": "Leve e Eficaz", "desc": "Não sobrecarrega a estrutura do telhado" },
+        "4": { "title": "Sem Manutenção", "desc": "Décadas sem necessidade de reparações" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 1.52mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "green-roofs": {
+      "title": "Telhados Verdes",
+      "description": "Membrana root-resistant para telhados ajardinados",
+      "benefits": {
+        "1": { "title": "Resistência a Raízes", "desc": "Membrana específica anti-raízes certificada" },
+        "2": { "title": "Sustentabilidade", "desc": "100% reciclável e amiga do ambiente" },
+        "3": { "title": "Isolamento Térmico", "desc": "Reduz custos de energia com isolamento natural" },
+        "4": { "title": "Gestão de Águas Pluviais", "desc": "Retém e filtra águas da chuva" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.52mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "terraces": {
+      "title": "Terraços e Varandas",
+      "description": "Proteção contra infiltrações em espaços de convivência",
+      "benefits": {
+        "1": { "title": "Impermeabilização Total", "desc": "Zero infiltrações mesmo em zonas de tráfego pedonal" },
+        "2": { "title": "Compatível com Pavimentos", "desc": "Pode ser coberta com deck, cerâmica ou pedra" },
+        "3": { "title": "Resistência a Ponçoamento", "desc": "Suporta mobiliário e tráfego sem danos" },
+        "4": { "title": "Acabamento Estético", "desc": "Disponível em várias cores e acabamentos" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 1.52mm" },
+        "width": { "label": "Largura", "value": "Até 12m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "swimming-pools": {
+      "title": "Piscinas",
+      "description": "Membrana liners para piscinas residenciais e públicas",
+      "benefits": {
+        "1": { "title": "Estanquidade Total", "desc": "Zero fugas com juntas vulcanizadas" },
+        "2": { "title": "Resistência Química", "desc": "Compatível com cloro e outros tratamentos" },
+        "3": { "title": "Flexibilidade", "desc": "Adapta-se a qualquer forma de piscina" },
+        "4": { "title": "Conforto", "desc": "Superfície suave e agradável ao toque" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 1.52mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +80°C" },
+        "lifespan": { "label": "Vida Útil", "value": "30+ anos" }
+      }
+    },
+    "lakes-reservoirs": {
+      "title": "Lagos e Reservatórios",
+      "description": "Impermeabilização para lagos ornamentais e reservatórios de água",
+      "benefits": {
+        "1": { "title": "Segurança Alimentar", "desc": "Aprovada para contacto com água potável" },
+        "2": { "title": "Resistência Biológica", "desc": "Não favorece o crescimento de algas ou bactérias" },
+        "3": { "title": "Grandes Dimensões", "desc": "Peças de grandes dimensões minimizam juntas" },
+        "4": { "title": "Ecológica", "desc": "Não liberta substâncias tóxicas para a água" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +120°C" },
+        "lifespan": { "label": "Vida Útil", "value": "40+ anos" }
+      }
+    },
+    "facades": {
+      "title": "Fachadas",
+      "description": "Proteção de fachadas contra intemperismo e humidade",
+      "benefits": {
+        "1": { "title": "Barreira contra Humidade", "desc": "Protege contra infiltrações laterais" },
+        "2": { "title": "Respirabilidade", "desc": "Permite a passagem de vapor sem condensação" },
+        "3": { "title": "Resistência UV", "desc": "Não degrada com exposição solar direta" },
+        "4": { "title": "Estética Preservada", "desc": "Pode ser aplicada sob revestimentos decorativos" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm" },
+        "width": { "label": "Largura", "value": "Até 12m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "foundations": {
+      "title": "Fundações",
+      "description": "Impermeabilização de fundações e estruturas enterradas",
+      "benefits": {
+        "1": { "title": "Proteção Subterrânea", "desc": "Barreira total contra água e humidade do solo" },
+        "2": { "title": "Resistência Química", "desc": "Resiste a sais, ácidos e alcalis do solo" },
+        "3": { "title": "Flexibilidade Estrutural", "desc": "Acompanha assentamentos sem romper" },
+        "4": { "title": "Longa Duração", "desc": "Sem degradação em ambientes enterrados" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.52mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "industrial-buildings": {
+      "title": "Edifícios Industriais",
+      "description": "Soluções para coberturas e impermeabilização industrial",
+      "benefits": {
+        "1": { "title": "Grandes Coberturas", "desc": "Peças de grandes dimensões para naves industriais" },
+        "2": { "title": "Resistência Mecânica", "desc": "Suporta tráfego de manutenção e equipamentos" },
+        "3": { "title": "Resistência Química", "desc": "Compatível com ambientes industriais agressivos" },
+        "4": { "title": "Custo-Benefício", "desc": "Instalação rápida e manutenção mínima" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "commercial-buildings": {
+      "title": "Edifícios Comerciais",
+      "description": "Impermeabilização para centros comerciais e escritórios",
+      "benefits": {
+        "1": { "title": "Zero Interrupções", "desc": "Instalação rápida sem perturbar atividade comercial" },
+        "2": { "title": "Baixa Manutenção", "desc": "Reduz custos operacionais a longo prazo" },
+        "3": { "title": "Versatilidade", "desc": "Compatível com sistemas de AVAC e equipamentos de cobertura" },
+        "4": { "title": "Garantia Extensa", "desc": "Décadas de proteção garantida" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 2.28mm" },
+        "width": { "label": "Largura", "value": "Até 15.25m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    },
+    "residential": {
+      "title": "Habitações Residenciais",
+      "description": "Soluções para casas e moradias",
+      "benefits": {
+        "1": { "title": "Proteção Completa", "desc": "Impermeabilização total para a sua casa" },
+        "2": { "title": "Conforto Térmico", "desc": "Contribui para o isolamento térmico da habitação" },
+        "3": { "title": "Valorização", "desc": "Aumenta o valor do imóvel com proteção duradoura" },
+        "4": { "title": "Silencioso", "desc": "Reduz ruído de chuva e granizo" }
+      },
+      "specs": {
+        "thickness": { "label": "Espessura", "value": "1.14mm - 1.52mm" },
+        "width": { "label": "Largura", "value": "Até 12m" },
+        "temperature": { "label": "Temperatura", "value": "-45°C a +150°C" },
+        "lifespan": { "label": "Vida Útil", "value": "50+ anos" }
+      }
+    }
+  },
+  "Quote": {
+    "title": "Pedir Orçamento",
+    "subtitle": "Fale connosco para um orçamento personalizado",
+    "steps": {
+      "projectType": "Tipo de Projeto",
+      "details": "Detalhes do Projeto",
+      "contact": "Contacto"
+    },
+    "fields": {
+      "applicationType": "Tipo de Aplicação",
+      "area": "Área (m²)",
+      "location": "Localização",
+      "timeline": "Prazo",
+      "description": "Descrição",
+      "upload": "Upload de Ficheiros",
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "company": "Empresa"
+    },
+    "options": {
+      "asap": "Quanto antes",
+      "1to3": "1-3 meses",
+      "3to6": "3-6 meses",
+      "6plus": "6+ meses",
+      "other": "Outro",
+      "selectType": "Selecione o tipo de aplicação",
+      "selectTimeline": "Selecione o prazo"
+    },
+    "navigation": {
+      "next": "Seguinte",
+      "back": "Anterior",
+      "step": "Passo"
+    },
+    "validation": {
+      "required": "Este campo é obrigatório",
+      "invalidEmail": "Email inválido",
+      "invalidPhone": "Telefone inválido",
+      "minArea": "Área mínima é 1 m²"
+    },
+    "submit": "Enviar Pedido",
+    "submitting": "A enviar...",
+    "success": "Obrigado! O seu pedido foi enviado. Responderemos em 24h.",
+    "error": "Erro ao enviar. Por favor, tente novamente."
   }
 }
