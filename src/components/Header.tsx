@@ -22,14 +22,11 @@ export function Header() {
           <Link href={`/${locale}/applications`} className="hover:text-blue-600 transition-colors">
             {t('applications')}
           </Link>
+          <Link href={`/${locale}/why-epdm`} className="hover:text-blue-600 transition-colors">
+            {locale === 'pt' ? 'Porquê EPDM' : 'Why EPDM'}
+          </Link>
           <Link href={`/${locale}/about`} className="hover:text-blue-600 transition-colors">
             {t('about')}
-          </Link>
-          <Link href={`/${locale}/blog`} className="hover:text-blue-600 transition-colors">
-            {t('blog')}
-          </Link>
-          <Link href={`/${locale}/contact`} className="hover:text-blue-600 transition-colors">
-            {t('contact')}
           </Link>
         </nav>
 
