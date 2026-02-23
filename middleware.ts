@@ -10,15 +10,10 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/pt', request.url))
   }
 
-  // If path starts with /pt or /en, continue
-  if (pathname.startsWith('/pt') || pathname.startsWith('/en')) {
-    return NextResponse.next()
-  }
-
-  // For any other path, continue
+  // For all other requests, continue
   return NextResponse.next()
 }
 
 export const config = {
-  matcher: ['/', '/(pt|en)/:path*']
+  matcher: '/'
 }
