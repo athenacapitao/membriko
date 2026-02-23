@@ -3,13 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { redirect } from 'next/navigation';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Membriko - EPDM Solutions",
-  description: "EPDM membrane specialists for the Portuguese market",
+  title: "Membriko - EPDM de Portugal",
+  description: "Especialistas em membranas EPDM. 50+ anos de durabilidade.",
 };
 
 export default function RootLayout({
@@ -17,15 +16,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Check if we're at the root path
-  // This is a hack - in production, the middleware should handle this
-  // But for now, we'll redirect from the layout
-  if (typeof window !== 'undefined' && window.location.pathname === '/') {
-    redirect('/pt');
-  }
-
   return (
-    <html lang="en">
+    <html lang="pt">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Header />
         <main className="flex-grow">{children}</main>

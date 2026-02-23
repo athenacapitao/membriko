@@ -1,12 +1,9 @@
 'use client'
 
-import { Link } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 import { LanguageSwitcher } from './LanguageSwitcher'
 
 export function Header() {
-  const t = useTranslations('Navigation')
-
   return (
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -16,26 +13,23 @@ export function Header() {
 
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/applications" className="hover:text-blue-600 transition-colors">
-            {t('applications')}
+            Aplicações
           </Link>
           <Link href="/about" className="hover:text-blue-600 transition-colors">
-            {t('about')}
+            Sobre
           </Link>
           <Link href="/blog" className="hover:text-blue-600 transition-colors">
-            {t('blog')}
+            Blog
           </Link>
           <Link href="/contact" className="hover:text-blue-600 transition-colors">
-            {t('contact')}
+            Contacto
           </Link>
         </nav>
 
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
-          <Link
-            href="/quote"
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            {t('quote')}
+          <Link href="/quote" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            Orçamento
           </Link>
         </div>
       </div>

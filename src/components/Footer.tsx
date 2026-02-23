@@ -1,54 +1,42 @@
-'use client'
-
-import { Link } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 
 export function Footer() {
-  const t = useTranslations('Navigation')
-
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Membriko</h3>
-            <p className="text-gray-400">
-              Especialistas em membranas EPDM em Portugal.
-            </p>
+            <h3 className="text-xl font-bold mb-4 text-yellow-500">Membriko</h3>
+            <p className="text-gray-400">Especialistas em membranas EPDM em Portugal.</p>
           </div>
-
-          <div>
-            <h4 className="font-semibold mb-4">Navegação</h4>
-            <ul className="space-y-2">
-              <li><Link href="/pt/applications" className="text-gray-400 hover:text-white">{t('applications')}</Link></li>
-              <li><Link href="/pt/about" className="text-gray-400 hover:text-white">{t('about')}</Link></li>
-              <li><Link href="/pt/blog" className="text-gray-400 hover:text-white">{t('blog')}</Link></li>
-              <li><Link href="/pt/contact" className="text-gray-400 hover:text-white">{t('contact')}</Link></li>
-            </ul>
-          </div>
-
           <div>
             <h4 className="font-semibold mb-4">Aplicações</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Coberturas Planas</li>
-              <li>Piscinas</li>
-              <li>Lagos e Reservatórios</li>
-              <li>Fachadas</li>
+              <li><Link href="/applications/telhados-planos" className="hover:text-white">Telhados Planos</Link></li>
+              <li><Link href="/applications/telhados-inclinados" className="hover:text-white">Telhados Inclinados</Link></li>
+              <li><Link href="/applications/piscinas" className="hover:text-white">Piscinas</Link></li>
+              <li><Link href="/applications/terracos" className="hover:text-white">Terraços</Link></li>
             </ul>
           </div>
-
+          <div>
+            <h4 className="font-semibold mb-4">Empresa</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li><Link href="/about" className="hover:text-white">Sobre Nós</Link></li>
+              <li><Link href="/contact" className="hover:text-white">Contacto</Link></li>
+              <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
+            </ul>
+          </div>
           <div>
             <h4 className="font-semibold mb-4">Contacto</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Portugal</li>
-              <li>info@membriko.pt</li>
-              <li>+351 XXX XXX XXX</li>
+              <li>📧 info@membriko.pt</li>
+              <li>📞 +351 123 456 789</li>
+              <li>📍 Portugal</li>
             </ul>
           </div>
         </div>
-
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          © {new Date().getFullYear()} Membriko. Todos os direitos reservados.
+          <p>© 2026 Membriko. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
