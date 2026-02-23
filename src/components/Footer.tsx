@@ -1,3 +1,5 @@
+'use client'
+
 import { Link } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
 
@@ -18,10 +20,10 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Navegação</h4>
             <ul className="space-y-2">
-              <li><Link href="/applications" className="text-gray-400 hover:text-white">{t('applications')}</Link></li>
-              <li><Link href="/about" className="text-gray-400 hover:text-white">{t('about')}</Link></li>
-              <li><Link href="/blog" className="text-gray-400 hover:text-white">{t('blog')}</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-white">{t('contact')}</Link></li>
+              <li><Link href="/pt/applications" className="text-gray-400 hover:text-white">{t('applications')}</Link></li>
+              <li><Link href="/pt/about" className="text-gray-400 hover:text-white">{t('about')}</Link></li>
+              <li><Link href="/pt/blog" className="text-gray-400 hover:text-white">{t('blog')}</Link></li>
+              <li><Link href="/pt/contact" className="text-gray-400 hover:text-white">{t('contact')}</Link></li>
             </ul>
           </div>
 

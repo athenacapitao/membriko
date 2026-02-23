@@ -1,17 +1,15 @@
 {
   "Navigation": {
-    "home": "Home",
     "applications": "Applications",
     "about": "About",
     "blog": "Blog",
     "contact": "Contact",
-    "quote": "Get a Quote"
+    "quote": "Quote"
   },
   "Home": {
     "hero": {
-      "title": "EPDM Membranes in Portugal",
-      "subtitle": "The best waterproofing solution for your project",
-      "cta": "Get a Quote"
+      "title": "Portugal's Best EPDM Solution",
+      "subtitle": "50+ year lifespan, total resistance, 100% recyclable."
     }
   }
 }

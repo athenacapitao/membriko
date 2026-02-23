@@ -1,6 +1,5 @@
 {
   "Navigation": {
-    "home": "Início",
     "applications": "Aplicações",
     "about": "Sobre",
     "blog": "Blog",
@@ -9,9 +8,8 @@
   },
   "Home": {
     "hero": {
-      "title": "Membranas EPDM em Portugal",
-      "subtitle": "A melhor solução de impermeabilização para o seu projeto",
-      "cta": "Solicitar Orçamento"
+      "title": "A Melhor Solução EPDM de Portugal",
+      "subtitle": "50+ anos de durabilidade, resistência total, 100% reciclável."
     }
   }
 }
