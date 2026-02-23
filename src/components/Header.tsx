@@ -1,35 +1,44 @@
 'use client'
 
 import Link from 'next/link'
-import { LanguageSwitcher } from './LanguageSwitcher'
+import { useTranslations } from 'next-intl'
+import { usePathname } from 'next/navigation'
 
 export function Header() {
+  const t = useTranslations('Navigation')
+  const pathname = usePathname()
+  const locale = pathname?.split('/')[1] || 'pt'
+
+  const switchLocale = locale === 'pt' ? 'en' : 'pt'
+
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold text-blue-600">
+        <Link href={`/${locale}`} className="text-2xl font-bold text-blue-600">
           Membriko
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="/applications" className="hover:text-blue-600 transition-colors">
-            Aplicações
+          <Link href={`/${locale}/applications`} className="hover:text-blue-600 transition-colors">
+            {t('applications')}
           </Link>
-          <Link href="/about" className="hover:text-blue-600 transition-colors">
-            Sobre
+          <Link href={`/${locale}/about`} className="hover:text-blue-600 transition-colors">
+            {t('about')}
           </Link>
-          <Link href="/blog" className="hover:text-blue-600 transition-colors">
-            Blog
+          <Link href={`/${locale}/blog`} className="hover:text-blue-600 transition-colors">
+            {t('blog')}
           </Link>
-          <Link href="/contact" className="hover:text-blue-600 transition-colors">
-            Contacto
+          <Link href={`/${locale}/contact`} className="hover:text-blue-600 transition-colors">
+            {t('contact')}
           </Link>
         </nav>
 
         <div className="flex items-center gap-4">
-          <LanguageSwitcher />
-          <Link href="/quote" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-            Orçamento
+          <Link href={`/${switchLocale}`} className="text-sm text-gray-500 hover:text-blue-600">
+            {switchLocale.toUpperCase()}
+          </Link>
+          <Link href={`/${locale}/quote`} className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            {t('quote')}
           </Link>
         </div>
       </div>
