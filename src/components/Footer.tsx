@@ -1,43 +1,156 @@
-'use client'
-
 import Link from 'next/link'
+import { Mail, Phone, MapPin } from 'lucide-react'
+import type { Locale } from '@/lib/i18n'
+import { categories } from '@/content/categories'
+import { pageSlugMap, getCategoryPath, getApplicationPath } from '@/lib/slugs'
 
-export function Footer() {
+interface FooterProps {
+  locale: Locale
+}
+
+const topApplicationIds = [
+  'flat-roofs',
+  'swimming-pools',
+  'green-roofs',
+  'foundations',
+  'facades',
+  'water-reservoirs',
+] as const
+
+const topApplicationLabels: Record<string, { pt: string; en: string }> = {
+  'flat-roofs': { pt: 'Coberturas Planas', en: 'Flat Roofs' },
+  'swimming-pools': { pt: 'Piscinas', en: 'Swimming Pools' },
+  'green-roofs': { pt: 'Coberturas Verdes', en: 'Green Roofs' },
+  foundations: { pt: 'Fundações', en: 'Foundations' },
+  facades: { pt: 'Fachadas', en: 'Facades' },
+  'water-reservoirs': { pt: 'Reservatórios', en: 'Water Reservoirs' },
+}
+
+const footerLabels = {
+  company: { pt: 'Empresa', en: 'Company' },
+  tagline: {
+    pt: 'Especialistas em membranas EPDM para impermeabilização em Portugal.',
+    en: 'EPDM membrane waterproofing specialists in Portugal.',
+  },
+  topApplications: { pt: 'Aplicações em Destaque', en: 'Top Applications' },
+  categories: { pt: 'Categorias', en: 'Categories' },
+  contact: { pt: 'Contacto', en: 'Contact' },
+  rights: { pt: 'Todos os direitos reservados.', en: 'All rights reserved.' },
+  location: { pt: 'Portugal', en: 'Portugal' },
+}
+
+export function Footer({ locale }: FooterProps): React.JSX.Element {
+  const currentYear = new Date().getFullYear()
+
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
+    <footer className="bg-[var(--color-navy)] text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+          {/* Column 1: Company info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-yellow-500">Membriko</h3>
-            <p className="text-gray-400">Especialistas em membranas EPDM em Portugal.</p>
+            <Link
+              href={`/${locale}`}
+              className="text-xl font-bold text-[var(--color-accent)] mb-4 inline-block"
+            >
+              Membriko
+            </Link>
+            <p className="text-sm text-slate-300 leading-relaxed mt-2">
+              {footerLabels.tagline[locale]}
+            </p>
           </div>
+
+          {/* Column 2: Top applications */}
           <div>
-            <h4 className="font-semibold mb-4">Aplicações</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><Link href="/applications/telhados-planos" className="hover:text-white">Telhados Planos</Link></li>
-              <li><Link href="/applications/telhados-inclinados" className="hover:text-white">Telhados Inclinados</Link></li>
-              <li><Link href="/applications/piscinas" className="hover:text-white">Piscinas</Link></li>
-              <li><Link href="/applications/terracos" className="hover:text-white">Terraços</Link></li>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+              {footerLabels.topApplications[locale]}
+            </h3>
+            <ul className="space-y-2">
+              {topApplicationIds.map((appId) => (
+                <li key={appId}>
+                  <Link
+                    href={getApplicationPath(appId, locale)}
+                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                  >
+                    {topApplicationLabels[appId]?.[locale] ?? appId}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
+
+          {/* Column 3: Categories */}
           <div>
-            <h4 className="font-semibold mb-4">Empresa</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><Link href="/about" className="hover:text-white">Sobre Nós</Link></li>
-              <li><Link href="/quote" className="hover:text-white">Contacto</Link></li>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+              {footerLabels.categories[locale]}
+            </h3>
+            <ul className="space-y-2">
+              {categories.map((category) => (
+                <li key={category.id}>
+                  <Link
+                    href={getCategoryPath(category.id, locale)}
+                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                  >
+                    {category.title[locale]}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
+
+          {/* Column 4: Contact */}
           <div>
-            <h4 className="font-semibold mb-4">Contacto</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>📧 info@membriko.pt</li>
-              <li>📞 +351 123 456 789</li>
-              <li>📍 Portugal</li>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+              {footerLabels.contact[locale]}
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href="mailto:info@membriko.pt"
+                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors"
+                >
+                  <Mail size={15} className="shrink-0 text-[var(--color-accent)]" />
+                  info@membriko.pt
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+351000000000"
+                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors"
+                >
+                  <Phone size={15} className="shrink-0 text-[var(--color-accent)]" />
+                  +351 XXX XXX XXX
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-sm text-slate-300">
+                <MapPin size={15} className="shrink-0 text-[var(--color-accent)]" />
+                {footerLabels.location[locale]}
+              </li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© 2026 Membriko. Todos os direitos reservados.</p>
+
+        {/* Bottom bar */}
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+          <p>
+            &copy; {currentYear} Membriko. {footerLabels.rights[locale]}
+          </p>
+
+          {/* Language links */}
+          <div className="flex items-center gap-3">
+            <Link
+              href={`/pt`}
+              className={`hover:text-white transition-colors ${locale === 'pt' ? 'text-white font-medium' : ''}`}
+            >
+              Português
+            </Link>
+            <span aria-hidden="true">/</span>
+            <Link
+              href={`/en`}
+              className={`hover:text-white transition-colors ${locale === 'en' ? 'text-white font-medium' : ''}`}
+            >
+              English
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

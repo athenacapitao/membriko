@@ -1,0 +1,72 @@
+import Link from 'next/link'
+import { type ReactNode } from 'react'
+
+type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'ghost'
+type ButtonSize = 'sm' | 'md' | 'lg'
+
+interface BaseButtonProps {
+  children: ReactNode
+  variant?: ButtonVariant
+  size?: ButtonSize
+  className?: string
+  disabled?: boolean
+}
+
+interface ButtonAsButtonProps extends BaseButtonProps {
+  href?: undefined
+  onClick?: React.MouseEventHandler<HTMLButtonElement>
+  type?: 'button' | 'submit' | 'reset'
+}
+
+interface ButtonAsLinkProps extends BaseButtonProps {
+  href: string
+  onClick?: undefined
+  type?: undefined
+}
+
+type ButtonProps = ButtonAsButtonProps | ButtonAsLinkProps
+
+const variantClasses: Record<ButtonVariant, string> = {
+  primary:
+    'bg-accent text-navy font-semibold hover:bg-accent-hover focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2',
+  secondary:
+    'bg-primary text-white font-semibold hover:bg-primary-dark focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+  outline:
+    'border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+  ghost:
+    'bg-transparent text-primary font-semibold hover:bg-primary/10 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+}
+
+const sizeClasses: Record<ButtonSize, string> = {
+  sm: 'px-3 py-1.5 text-sm rounded-md',
+  md: 'px-5 py-2.5 text-base rounded-lg',
+  lg: 'px-8 py-4 text-lg rounded-lg',
+}
+
+const baseClasses =
+  'inline-flex items-center justify-center transition-colors duration-200 focus:outline-none disabled:opacity-50 disabled:pointer-events-none'
+
+export function Button(props: ButtonProps): React.JSX.Element {
+  const { children, variant = 'primary', size = 'md', className = '', disabled } = props
+
+  const combinedClasses = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`
+
+  if (props.href !== undefined) {
+    return (
+      <Link href={props.href} className={combinedClasses}>
+        {children}
+      </Link>
+    )
+  }
+
+  return (
+    <button
+      type={props.type ?? 'button'}
+      onClick={props.onClick}
+      disabled={disabled}
+      className={combinedClasses}
+    >
+      {children}
+    </button>
+  )
+}
