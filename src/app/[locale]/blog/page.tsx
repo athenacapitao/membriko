@@ -77,7 +77,7 @@ export default async function BlogPage({
         ]}
       />
 
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="max-w-2xl mx-auto text-center py-16">
             <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">

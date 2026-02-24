@@ -1,6 +1,5 @@
 import { Section, Container, ComparisonTable } from '@/components/ui'
 
-// Re-export the row type so consumers don't need to import from ui directly
 interface ComparisonRow {
   feature: string
   epdm: string
@@ -19,11 +18,10 @@ export function ComparisonSection({
   rows,
 }: ComparisonSectionProps): React.JSX.Element {
   return (
-    <Section bg="surface">
+    <Section bg="elevated">
       <Container>
-        {/* Section header */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">{title}</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">{title}</h2>
           {subtitle && (
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
           )}

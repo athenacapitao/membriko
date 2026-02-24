@@ -11,8 +11,6 @@ interface FaqPageContentProps {
   locale: Locale
 }
 
-// This component uses useState so it must be a client component.
-// We export a thin client wrapper from this file.
 export function FaqPageContent({ locale }: FaqPageContentProps): React.JSX.Element {
   const content = faq[locale]
   const contactPath = `/${locale}/${pageSlugMap.contact[locale]}`
@@ -33,7 +31,7 @@ export function FaqPageContent({ locale }: FaqPageContentProps): React.JSX.Eleme
       />
 
       {/* Tab navigation + Accordion */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           {/* Category tab bar */}
           <div className="flex flex-wrap gap-2 mb-10 justify-center" role="tablist">
@@ -45,8 +43,8 @@ export function FaqPageContent({ locale }: FaqPageContentProps): React.JSX.Eleme
                 onClick={() => setActiveCategory(category.id)}
                 className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 ${
                   activeCategory === category.id
-                    ? 'bg-primary text-white'
-                    : 'bg-white border border-border text-text-muted hover:border-primary/30 hover:text-primary'
+                    ? 'bg-accent text-black'
+                    : 'bg-white/10 border border-white/10 text-text-muted hover:border-accent/30 hover:text-white'
                 }`}
               >
                 {category.label}

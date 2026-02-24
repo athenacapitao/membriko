@@ -42,7 +42,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={inter.variable}>
-      <body className="min-h-screen flex flex-col font-sans antialiased">
+      <body className="min-h-screen flex flex-col font-sans antialiased bg-bg text-text">
         <Header locale={locale as Locale} />
         <main className="flex-grow">{children}</main>
         <Footer locale={locale as Locale} />

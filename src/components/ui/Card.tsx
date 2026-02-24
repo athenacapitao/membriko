@@ -8,7 +8,7 @@ interface CardProps {
 export function Card({ children, className = '' }: CardProps): React.JSX.Element {
   return (
     <div
-      className={`bg-white rounded-xl shadow-sm border border-border hover:shadow-lg transition-shadow duration-300 ${className}`}
+      className={`bg-bg-elevated rounded-xl border border-white/10 hover:border-white/20 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 ${className}`}
     >
       {children}
     </div>
@@ -17,7 +17,7 @@ export function Card({ children, className = '' }: CardProps): React.JSX.Element
 
 export function CardHeader({ children, className = '' }: CardProps): React.JSX.Element {
   return (
-    <div className={`px-6 pt-6 pb-4 border-b border-border ${className}`}>
+    <div className={`px-6 pt-6 pb-4 border-b border-white/10 ${className}`}>
       {children}
     </div>
   )

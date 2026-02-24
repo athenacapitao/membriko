@@ -43,25 +43,25 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-[var(--color-navy)] text-white">
+    <footer className="bg-bg-elevated border-t border-white/10 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Column 1: Company info */}
           <div>
             <Link
               href={`/${locale}`}
-              className="text-xl font-bold text-[var(--color-accent)] mb-4 inline-block"
+              className="text-xl font-bold text-accent mb-4 inline-block"
             >
               Membriko
             </Link>
-            <p className="text-sm text-slate-300 leading-relaxed mt-2">
+            <p className="text-sm text-text-muted leading-relaxed mt-2">
               {footerLabels.tagline[locale]}
             </p>
           </div>
 
           {/* Column 2: Top applications */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-text-light mb-4">
               {footerLabels.topApplications[locale]}
             </h3>
             <ul className="space-y-2">
@@ -69,7 +69,7 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
                 <li key={appId}>
                   <Link
                     href={getApplicationPath(appId, locale)}
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-text-muted hover:text-white transition-colors"
                   >
                     {topApplicationLabels[appId]?.[locale] ?? appId}
                   </Link>
@@ -80,7 +80,7 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
 
           {/* Column 3: Categories */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-text-light mb-4">
               {footerLabels.categories[locale]}
             </h3>
             <ul className="space-y-2">
@@ -88,7 +88,7 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
                 <li key={category.id}>
                   <Link
                     href={getCategoryPath(category.id, locale)}
-                    className="text-sm text-slate-300 hover:text-white transition-colors"
+                    className="text-sm text-text-muted hover:text-white transition-colors"
                   >
                     {category.title[locale]}
                   </Link>
@@ -99,30 +99,30 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
 
           {/* Column 4: Contact */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-text-light mb-4">
               {footerLabels.contact[locale]}
             </h3>
             <ul className="space-y-3">
               <li>
                 <a
                   href="mailto:info@membriko.pt"
-                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors"
+                  className="flex items-center gap-2 text-sm text-text-muted hover:text-white transition-colors"
                 >
-                  <Mail size={15} className="shrink-0 text-[var(--color-accent)]" />
+                  <Mail size={15} className="shrink-0 text-accent" />
                   info@membriko.pt
                 </a>
               </li>
               <li>
                 <a
                   href="tel:+351000000000"
-                  className="flex items-center gap-2 text-sm text-slate-300 hover:text-white transition-colors"
+                  className="flex items-center gap-2 text-sm text-text-muted hover:text-white transition-colors"
                 >
-                  <Phone size={15} className="shrink-0 text-[var(--color-accent)]" />
+                  <Phone size={15} className="shrink-0 text-accent" />
                   +351 XXX XXX XXX
                 </a>
               </li>
-              <li className="flex items-center gap-2 text-sm text-slate-300">
-                <MapPin size={15} className="shrink-0 text-[var(--color-accent)]" />
+              <li className="flex items-center gap-2 text-sm text-text-muted">
+                <MapPin size={15} className="shrink-0 text-accent" />
                 {footerLabels.location[locale]}
               </li>
             </ul>
@@ -130,7 +130,7 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-light">
           <p>
             &copy; {currentYear} Membriko. {footerLabels.rights[locale]}
           </p>

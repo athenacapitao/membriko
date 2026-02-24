@@ -53,14 +53,12 @@ export function ApplicationDetailContent({
 }: ApplicationDetailContentProps): React.JSX.Element {
   const labels = sectionLabels[locale]
 
-  // Resolve IDs from slugs
   const categoryId = getIdFromSlug(categorySlugMap, categorySlug, locale)
   if (!categoryId) notFound()
 
   const appId = getIdFromSlug(applicationSlugMap, appSlug, locale)
   if (!appId) notFound()
 
-  // Verify the app belongs to the given category
   const appCategory = getApplicationCategory(appId)
   if (appCategory !== categoryId) notFound()
 
@@ -80,7 +78,6 @@ export function ApplicationDetailContent({
   const currentPath = `/${locale}/${pageSlugMap.applications[locale]}/${categorySlug}/${appSlug}`
   const currentUrl = `${BASE_URL}${currentPath}`
 
-  // Build related apps list from relatedSlugs (internal IDs)
   const relatedApps = content.relatedSlugs
     .map((relatedId) => {
       const relatedData = getApplicationById(relatedId)
@@ -155,10 +152,10 @@ export function ApplicationDetailContent({
       />
 
       {/* Installation process steps */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy">{labels.installation}</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-text">{labels.installation}</h2>
           </div>
           <div className="max-w-2xl mx-auto">
             <ProcessSteps steps={content.installationSteps} />

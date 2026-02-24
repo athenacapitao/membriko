@@ -13,30 +13,28 @@ describe('Section', () => {
     expect(section.getAttribute('id')).toBe('hero')
   })
 
-  it('applies white background by default', () => {
+  it('applies dark background by default', () => {
     const { container } = render(<Section>Content</Section>)
     const section = container.firstChild as HTMLElement
-    expect(section.className).toContain('bg-white')
+    expect(section.className).toContain('bg-bg')
   })
 
-  it('applies surface background class when bg=surface', () => {
-    const { container } = render(<Section bg="surface">Content</Section>)
+  it('applies darker background class when bg=darker', () => {
+    const { container } = render(<Section bg="darker">Content</Section>)
     const section = container.firstChild as HTMLElement
-    expect(section.className).toContain('bg-surface')
+    expect(section.className).toContain('bg-bg-subtle')
   })
 
-  it('applies navy background and white text when bg=navy', () => {
-    const { container } = render(<Section bg="navy">Content</Section>)
+  it('applies elevated background when bg=elevated', () => {
+    const { container } = render(<Section bg="elevated">Content</Section>)
     const section = container.firstChild as HTMLElement
-    expect(section.className).toContain('bg-navy')
-    expect(section.className).toContain('text-white')
+    expect(section.className).toContain('bg-bg-elevated')
   })
 
-  it('applies primary background and white text when bg=primary', () => {
-    const { container } = render(<Section bg="primary">Content</Section>)
+  it('applies accent background when bg=accent', () => {
+    const { container } = render(<Section bg="accent">Content</Section>)
     const section = container.firstChild as HTMLElement
-    expect(section.className).toContain('bg-primary')
-    expect(section.className).toContain('text-white')
+    expect(section.className).toContain('bg-accent')
   })
 
   it('includes vertical padding classes', () => {

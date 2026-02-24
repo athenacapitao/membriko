@@ -46,7 +46,6 @@ export function CategoryHubContent({
 }: CategoryHubContentProps): React.JSX.Element {
   const text = sectionText[locale]
 
-  // Resolve the category ID from the localized slug
   const categoryId = getIdFromSlug(categorySlugMap, categorySlug, locale)
   if (!categoryId) notFound()
 
@@ -56,7 +55,6 @@ export function CategoryHubContent({
   const contactPath = `/${locale}/${pageSlugMap.contact[locale]}`
   const applicationsPath = `/${locale}/${pageSlugMap.applications[locale]}`
 
-  // All application IDs in this category
   const appIds = getApplicationsInCategory(categoryId)
 
   return (
@@ -92,10 +90,10 @@ export function CategoryHubContent({
       />
 
       {/* Applications grid */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {text.allApplications} — {category.title[locale]}
             </h2>
           </div>
@@ -105,7 +103,6 @@ export function CategoryHubContent({
               const appData = getApplicationById(appId)
               const appPath = getApplicationPath(appId, locale)
 
-              // Get localized slug for display
               const appSlugPair = applicationSlugMap[appId]
               const appSlug = appSlugPair?.[locale] ?? appId
 
@@ -115,9 +112,9 @@ export function CategoryHubContent({
                   <Link
                     key={appId}
                     href={appPath}
-                    className="group flex flex-col bg-white rounded-xl border border-border shadow-sm hover:shadow-lg hover:border-primary/30 transition-all duration-300 p-6"
+                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
                   >
-                    <h3 className="font-semibold text-navy text-lg mb-2 group-hover:text-primary transition-colors duration-200">
+                    <h3 className="font-semibold text-text text-lg mb-2 group-hover:text-accent transition-colors duration-200">
                       {appContent.hero.headline}
                     </h3>
                     <p className="text-text-muted text-sm leading-relaxed flex-1 mb-4">
@@ -128,25 +125,25 @@ export function CategoryHubContent({
                         {appContent.hero.stats.slice(0, 2).map((stat, i) => (
                           <span
                             key={i}
-                            className="text-xs font-medium bg-primary/10 text-primary px-2 py-1 rounded"
+                            className="text-xs font-medium bg-accent/15 text-accent-light px-2 py-1 rounded"
                           >
                             {stat.value} {stat.label}
                           </span>
                         ))}
                       </div>
                     )}
-                    <div className="flex items-center gap-1 mt-4 text-primary text-sm font-medium">
+                    <div className="flex items-center gap-1 mt-4 text-accent text-sm font-medium">
                       <span>{text.learnMore}</span>
                     </div>
                   </Link>
                 )
               }
 
-              // Fallback card for applications without full content yet
+              // Fallback card
               return (
                 <Card key={appId}>
                   <CardBody>
-                    <h3 className="font-semibold text-navy text-lg mb-2">
+                    <h3 className="font-semibold text-text text-lg mb-2">
                       {appSlug.replace(/-/g, ' ')}
                     </h3>
                     <p className="text-text-muted text-sm">

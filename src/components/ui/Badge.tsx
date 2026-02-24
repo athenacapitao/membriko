@@ -8,10 +8,10 @@ interface BadgeProps {
 }
 
 const variantClasses: Record<BadgeVariant, string> = {
-  primary: 'bg-primary/10 text-primary',
-  accent: 'bg-accent/15 text-amber-700',
-  success: 'bg-success/10 text-success',
-  neutral: 'bg-surface-alt text-text-muted',
+  primary: 'bg-primary/20 text-primary-light',
+  accent: 'bg-accent/20 text-accent-light',
+  success: 'bg-success/20 text-success',
+  neutral: 'bg-white/10 text-text-muted',
 }
 
 export function Badge({ children, variant = 'neutral' }: BadgeProps): React.JSX.Element {

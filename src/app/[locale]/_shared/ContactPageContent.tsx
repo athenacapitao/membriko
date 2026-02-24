@@ -133,7 +133,6 @@ const strings = {
   },
 }
 
-// Build a flat list of project type options grouped by category
 function buildProjectOptions(locale: Locale) {
   return categories.map((category) => {
     const appIds = getApplicationsInCategory(category.id)
@@ -166,8 +165,8 @@ function StepIndicator({
               step < currentStep
                 ? 'bg-success text-white'
                 : step === currentStep
-                  ? 'bg-primary text-white'
-                  : 'bg-surface-alt text-text-muted'
+                  ? 'bg-accent text-black'
+                  : 'bg-white/10 text-text-muted'
             }`}
           >
             {step < currentStep ? '✓' : step}
@@ -175,7 +174,7 @@ function StepIndicator({
           {step < totalSteps && (
             <div
               className={`w-8 h-0.5 transition-colors duration-200 ${
-                step < currentStep ? 'bg-success' : 'bg-border'
+                step < currentStep ? 'bg-success' : 'bg-white/10'
               }`}
             />
           )}
@@ -189,13 +188,13 @@ function StepIndicator({
 
 function FieldError({ message }: { message?: string }): React.JSX.Element | null {
   if (!message) return null
-  return <p className="mt-1 text-xs text-red-600">{message}</p>
+  return <p className="mt-1 text-xs text-red-400">{message}</p>
 }
 
 const inputClass =
-  'w-full px-4 py-3 rounded-lg border border-border bg-white text-navy placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors duration-200'
+  'w-full px-4 py-3 rounded-lg border border-white/10 bg-bg-subtle text-text placeholder:text-text-light focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-colors duration-200'
 
-const labelClass = 'block text-sm font-medium text-navy mb-1'
+const labelClass = 'block text-sm font-medium text-text mb-1'
 
 // --- Main component ---
 
@@ -250,10 +249,10 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
     return (
       <div className="min-h-[60vh] flex items-center justify-center py-16">
         <div className="max-w-lg mx-auto text-center px-4">
-          <div className="w-16 h-16 rounded-full bg-success/10 flex items-center justify-center mx-auto mb-6">
+          <div className="w-16 h-16 rounded-full bg-success/20 flex items-center justify-center mx-auto mb-6">
             <span className="text-3xl text-success">✓</span>
           </div>
-          <h2 className="text-2xl font-bold text-navy mb-4">{s.successTitle}</h2>
+          <h2 className="text-2xl font-bold text-text mb-4">{s.successTitle}</h2>
           <p className="text-text-muted leading-relaxed">{s.successMessage}</p>
         </div>
       </div>
@@ -261,11 +260,11 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
   }
 
   return (
-    <div className="py-12 lg:py-20 bg-surface min-h-[60vh]">
+    <div className="py-12 lg:py-20 bg-bg min-h-[60vh]">
       <div className="max-w-2xl mx-auto px-4">
         <StepIndicator currentStep={currentStep} totalSteps={TOTAL_STEPS} />
 
-        <div className="bg-white rounded-2xl shadow-sm border border-border p-8">
+        <div className="bg-bg-elevated rounded-2xl border border-white/10 p-8">
           <form onSubmit={handleSubmit(onSubmit)} noValidate>
             {/* Hidden locale field */}
             <input type="hidden" {...register('locale')} value={locale} />
@@ -273,7 +272,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
             {/* STEP 1: Project type */}
             {currentStep === 1 && (
               <div>
-                <h2 className="text-2xl font-bold text-navy mb-2">{s.step1Title}</h2>
+                <h2 className="text-2xl font-bold text-text mb-2">{s.step1Title}</h2>
                 <p className="text-text-muted mb-6">{s.step1Sub}</p>
 
                 <label className={labelClass}>{s.step1Title} *</label>
@@ -303,7 +302,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
             {currentStep === 2 && (
               <div className="space-y-5">
                 <div>
-                  <h2 className="text-2xl font-bold text-navy mb-2">{s.step2Title}</h2>
+                  <h2 className="text-2xl font-bold text-text mb-2">{s.step2Title}</h2>
                   <p className="text-text-muted mb-6">{s.step2Sub}</p>
                 </div>
 
@@ -365,7 +364,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
             {currentStep === 3 && (
               <div className="space-y-5">
                 <div>
-                  <h2 className="text-2xl font-bold text-navy mb-2">{s.step3Title}</h2>
+                  <h2 className="text-2xl font-bold text-text mb-2">{s.step3Title}</h2>
                   <p className="text-text-muted mb-6">{s.step3Sub}</p>
                 </div>
 
@@ -416,10 +415,10 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
             {/* STEP 4: Review */}
             {currentStep === 4 && (
               <div>
-                <h2 className="text-2xl font-bold text-navy mb-2">{s.step4Title}</h2>
+                <h2 className="text-2xl font-bold text-text mb-2">{s.step4Title}</h2>
                 <p className="text-text-muted mb-6">{s.step4Sub}</p>
 
-                <dl className="space-y-3 bg-surface rounded-xl p-6">
+                <dl className="space-y-3 bg-bg-subtle rounded-xl p-6 border border-white/10">
                   {[
                     { label: s.reviewProjectType, value: formValues.projectType },
                     { label: s.reviewArea, value: formValues.area ? `${formValues.area} m²` : '' },
@@ -436,13 +435,13 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                         <dt className="flex-shrink-0 w-32 text-sm font-medium text-text-muted">
                           {item.label}
                         </dt>
-                        <dd className="text-sm text-navy font-medium">{item.value}</dd>
+                        <dd className="text-sm text-text font-medium">{item.value}</dd>
                       </div>
                     ))}
                 </dl>
 
                 {serverError && (
-                  <p className="mt-4 text-sm text-red-600 bg-red-50 rounded-lg px-4 py-3">
+                  <p className="mt-4 text-sm text-red-400 bg-red-500/10 rounded-lg px-4 py-3 border border-red-500/20">
                     {serverError}
                   </p>
                 )}
@@ -455,7 +454,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                 <button
                   type="button"
                   onClick={() => setCurrentStep((prev) => prev - 1)}
-                  className="flex-1 px-6 py-3 rounded-lg border border-border text-navy font-semibold hover:bg-surface transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50"
+                  className="flex-1 px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/10 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50"
                 >
                   {s.back}
                 </button>
@@ -473,7 +472,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="flex-1 px-6 py-3 rounded-lg bg-accent text-navy font-semibold hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="flex-1 px-6 py-3 rounded-lg bg-accent text-black font-semibold hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? s.submitting : s.submit}
                 </button>

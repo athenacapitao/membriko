@@ -19,7 +19,6 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
   const contactPath = `/${locale}/${pageSlugMap.contact[locale]}`
   const applicationsPath = `/${locale}/${pageSlugMap.applications[locale]}`
 
-  // Labels for comparison table headers
   const comparisonLabels = {
     feature: locale === 'pt' ? 'Característica' : 'Feature',
     epdm: 'EPDM',
@@ -39,7 +38,7 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
         ctaHref={contactPath}
       />
 
-      {/* Benefits grid — 6 pillars */}
+      {/* Benefits grid */}
       <BenefitsGrid
         title={locale === 'pt' ? 'As 6 Vantagens Técnicas do EPDM' : '6 Technical Advantages of EPDM'}
         subtitle={
@@ -54,11 +53,11 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
         }))}
       />
 
-      {/* Comparison table — EPDM vs TPO vs PVC vs Bitumen */}
-      <Section bg="surface">
+      {/* Comparison table */}
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.comparisonTable.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -66,19 +65,19 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
             </p>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-border">
-            <table className="w-full bg-white text-sm">
+          <div className="overflow-x-auto rounded-xl border border-white/10">
+            <table className="w-full text-sm">
               <thead>
-                <tr className="bg-navy text-white">
-                  <th className="px-4 py-4 text-left font-semibold">
+                <tr className="bg-bg-subtle">
+                  <th className="px-4 py-4 text-left font-semibold text-text">
                     {comparisonLabels.feature}
                   </th>
-                  <th className="px-4 py-4 text-center font-semibold bg-accent text-navy">
+                  <th className="px-4 py-4 text-center font-semibold text-black bg-accent/80">
                     {comparisonLabels.epdm}
                   </th>
-                  <th className="px-4 py-4 text-center font-semibold">{comparisonLabels.tpo}</th>
-                  <th className="px-4 py-4 text-center font-semibold">{comparisonLabels.pvc}</th>
-                  <th className="px-4 py-4 text-center font-semibold">
+                  <th className="px-4 py-4 text-center font-semibold text-text">{comparisonLabels.tpo}</th>
+                  <th className="px-4 py-4 text-center font-semibold text-text">{comparisonLabels.pvc}</th>
+                  <th className="px-4 py-4 text-center font-semibold text-text">
                     {comparisonLabels.bitumen}
                   </th>
                 </tr>
@@ -87,10 +86,10 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
                 {content.comparisonTable.metrics.map((row, index) => (
                   <tr
                     key={index}
-                    className={index % 2 === 0 ? 'bg-white' : 'bg-surface'}
+                    className={index % 2 === 0 ? 'bg-bg-elevated' : 'bg-bg-subtle'}
                   >
-                    <td className="px-4 py-3 font-medium text-navy">{row.metric}</td>
-                    <td className="px-4 py-3 text-center bg-accent/10 font-semibold text-navy">
+                    <td className="px-4 py-3 font-medium text-text">{row.metric}</td>
+                    <td className="px-4 py-3 text-center bg-accent/10 font-semibold text-accent">
                       {row.epdm}
                     </td>
                     <td className="px-4 py-3 text-center text-text-muted">{row.tpo}</td>
@@ -105,10 +104,10 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
       </Section>
 
       {/* 30-year cost analysis */}
-      <Section bg="white">
+      <Section bg="dark">
         <Container>
           <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.costAnalysis.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -119,29 +118,28 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
           <div className="max-w-3xl mx-auto">
             <p className="text-text-muted mb-6 leading-relaxed">{content.costAnalysis.description}</p>
 
-            {/* Cost data as a simple visual table */}
-            <div className="overflow-x-auto rounded-xl border border-border mb-6">
-              <table className="w-full bg-white text-sm">
+            <div className="overflow-x-auto rounded-xl border border-white/10 mb-6">
+              <table className="w-full text-sm">
                 <thead>
-                  <tr className="bg-navy text-white">
-                    <th className="px-4 py-3 text-left font-semibold">
+                  <tr className="bg-bg-subtle">
+                    <th className="px-4 py-3 text-left font-semibold text-text">
                       {locale === 'pt' ? 'Ano' : 'Year'}
                     </th>
-                    <th className="px-4 py-3 text-center font-semibold bg-accent text-navy">
+                    <th className="px-4 py-3 text-center font-semibold text-black bg-accent/80">
                       EPDM
                     </th>
-                    <th className="px-4 py-3 text-center font-semibold">TPO</th>
-                    <th className="px-4 py-3 text-center font-semibold">PVC</th>
-                    <th className="px-4 py-3 text-center font-semibold">
+                    <th className="px-4 py-3 text-center font-semibold text-text">TPO</th>
+                    <th className="px-4 py-3 text-center font-semibold text-text">PVC</th>
+                    <th className="px-4 py-3 text-center font-semibold text-text">
                       {locale === 'pt' ? 'Betume' : 'Bitumen'}
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   {content.costAnalysis.data.map((row, index) => (
-                    <tr key={row.year} className={index % 2 === 0 ? 'bg-white' : 'bg-surface'}>
-                      <td className="px-4 py-3 font-medium text-navy">{row.year}</td>
-                      <td className="px-4 py-3 text-center bg-accent/10 font-semibold text-navy">
+                    <tr key={row.year} className={index % 2 === 0 ? 'bg-bg-elevated' : 'bg-bg-subtle'}>
+                      <td className="px-4 py-3 font-medium text-text">{row.year}</td>
+                      <td className="px-4 py-3 text-center bg-accent/10 font-semibold text-accent">
                         {row.epdm.toLocaleString(locale === 'pt' ? 'pt-PT' : 'en-GB')} €
                       </td>
                       <td className="px-4 py-3 text-center text-text-muted">
@@ -164,10 +162,10 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
       </Section>
 
       {/* Scientific evidence */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.scientificEvidence.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -180,11 +178,11 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
               <Card key={index}>
                 <CardBody>
                   <div className="flex items-start gap-3 mb-3">
-                    <Badge variant="primary">{item.year}</Badge>
-                    <p className="font-semibold text-navy text-sm">{item.source}</p>
+                    <Badge variant="accent">{item.year}</Badge>
+                    <p className="font-semibold text-text text-sm">{item.source}</p>
                   </div>
                   <p className="text-text-muted text-sm leading-relaxed mb-3">{item.finding}</p>
-                  <p className="text-xs text-primary font-medium">{item.significance}</p>
+                  <p className="text-xs text-accent font-medium">{item.significance}</p>
                 </CardBody>
               </Card>
             ))}
@@ -206,10 +204,10 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
       />
 
       {/* Standards & certifications */}
-      <Section bg="white">
+      <Section bg="dark">
         <Container>
           <div className="text-center mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.standards.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -224,7 +222,7 @@ export function WhyEpdmPageContent({ locale }: WhyEpdmPageContentProps): React.J
                   <div className="mb-3">
                     <Badge variant="primary">{item.code}</Badge>
                   </div>
-                  <h3 className="font-semibold text-navy text-base mb-2">{item.name}</h3>
+                  <h3 className="font-semibold text-text text-base mb-2">{item.name}</h3>
                   <p className="text-text-muted text-sm leading-relaxed">{item.description}</p>
                 </CardBody>
               </Card>

@@ -28,13 +28,13 @@ type ButtonProps = ButtonAsButtonProps | ButtonAsLinkProps
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    'bg-accent text-navy font-semibold hover:bg-accent-hover focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2',
+    'bg-accent text-black font-semibold hover:bg-accent-hover focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg',
   secondary:
-    'bg-primary text-white font-semibold hover:bg-primary-dark focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+    'bg-white/10 text-white font-semibold hover:bg-white/20 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:ring-offset-bg',
   outline:
-    'border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+    'border border-white/20 text-white font-semibold hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:ring-offset-bg',
   ghost:
-    'bg-transparent text-primary font-semibold hover:bg-primary/10 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
+    'bg-transparent text-white font-semibold hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:ring-offset-bg',
 }
 
 const sizeClasses: Record<ButtonSize, string> = {

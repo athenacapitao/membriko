@@ -20,28 +20,27 @@ export function Accordion({ items }: AccordionProps): React.JSX.Element {
   }
 
   return (
-    <div className="divide-y divide-border border border-border rounded-xl overflow-hidden">
+    <div className="divide-y divide-white/10 border border-white/10 rounded-xl overflow-hidden">
       {items.map((item, index) => {
         const isOpen = openIndex === index
 
         return (
-          <div key={index} className="bg-white">
+          <div key={index} className="bg-bg-elevated">
             <button
               type="button"
               onClick={() => handleToggle(index)}
               aria-expanded={isOpen}
-              className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-surface transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary"
+              className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-white/5 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary"
             >
-              <span className="font-semibold text-navy pr-4">{item.question}</span>
+              <span className="font-semibold text-text pr-4">{item.question}</span>
               <ChevronDown
                 size={20}
-                className={`flex-shrink-0 text-primary transition-transform duration-300 ${
+                className={`flex-shrink-0 text-accent transition-transform duration-300 ${
                   isOpen ? 'rotate-180' : 'rotate-0'
                 }`}
                 aria-hidden="true"
               />
             </button>
-            {/* Height transition via grid rows trick for smooth animation without JS measurement */}
             <div
               className={`grid transition-all duration-300 ease-in-out ${
                 isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'

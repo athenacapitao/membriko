@@ -1,6 +1,6 @@
 import { type ReactNode } from 'react'
 
-type SectionBackground = 'white' | 'surface' | 'navy' | 'primary'
+type SectionBackground = 'dark' | 'darker' | 'elevated' | 'accent'
 
 interface SectionProps {
   children: ReactNode
@@ -10,15 +10,15 @@ interface SectionProps {
 }
 
 const backgroundClasses: Record<SectionBackground, string> = {
-  white: 'bg-white',
-  surface: 'bg-surface',
-  navy: 'bg-navy text-white',
-  primary: 'bg-primary text-white',
+  dark: 'bg-bg',
+  darker: 'bg-bg-subtle',
+  elevated: 'bg-bg-elevated',
+  accent: 'bg-accent/10',
 }
 
 export function Section({
   children,
-  bg = 'white',
+  bg = 'dark',
   id,
   className = '',
 }: SectionProps): React.JSX.Element {

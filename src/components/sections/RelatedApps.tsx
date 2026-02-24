@@ -16,33 +16,29 @@ interface RelatedAppsProps {
 
 export function RelatedApps({ title, apps }: RelatedAppsProps): React.JSX.Element {
   return (
-    <Section bg="white">
+    <Section bg="dark">
       <Container>
-        {/* Section header */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-navy">{title}</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-text">{title}</h2>
         </div>
 
-        {/* Apps grid — 1 col mobile, 3 col desktop */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {apps.map((app, index) => (
             <Link
               key={index}
               href={app.href}
-              className="group flex flex-col bg-white rounded-xl border border-border shadow-sm hover:shadow-lg hover:border-primary/30 transition-all duration-300 p-6"
+              className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
             >
-              {/* Icon */}
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-200">
+              <div className="w-12 h-12 rounded-lg bg-primary/15 flex items-center justify-center mb-4 group-hover:bg-primary/25 transition-colors duration-200">
                 <Icon name={app.icon} size={24} className="text-primary" />
               </div>
 
-              <h3 className="font-semibold text-navy text-lg mb-2 group-hover:text-primary transition-colors duration-200">
+              <h3 className="font-semibold text-text text-lg mb-2 group-hover:text-accent transition-colors duration-200">
                 {app.title}
               </h3>
               <p className="text-text-muted text-sm leading-relaxed flex-1">{app.description}</p>
 
-              {/* Link indicator */}
-              <div className="flex items-center gap-1 mt-4 text-primary text-sm font-medium">
+              <div className="flex items-center gap-1 mt-4 text-accent text-sm font-medium">
                 <span>Saber mais</span>
                 <ChevronRight
                   size={16}

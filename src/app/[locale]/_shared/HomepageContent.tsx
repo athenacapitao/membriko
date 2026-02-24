@@ -24,63 +24,22 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
   const applicationsPath = `/${locale}/${pageSlugMap.applications[locale]}`
   const whyEpdmPath = `/${locale}/${pageSlugMap['why-epdm'][locale]}`
 
-  // Featured applications: take the first 6 from the registry that have full content
   const featuredApps = allApplications.slice(0, 6)
 
   return (
     <>
-      {/* 1. Hero — gradient navy bg */}
-      <section
-        className="relative bg-gradient-to-br from-navy via-navy-light to-navy text-white py-16 lg:py-24"
-        aria-labelledby="homepage-hero-heading"
-      >
-        <Container>
-          <div className="max-w-3xl">
-            <h1
-              id="homepage-hero-heading"
-              className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6"
-            >
-              {content.hero.headline}
-            </h1>
-            <p className="text-xl lg:text-2xl text-white/80 leading-relaxed mb-10">
-              {content.hero.subtitle}
-            </p>
-
-            {/* Two CTA buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href={contactPath}
-                className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-lg bg-accent text-navy hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-navy"
-              >
-                {content.hero.ctaQuote}
-              </Link>
-              <Link
-                href={applicationsPath}
-                className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-lg border border-white/30 text-white hover:bg-white/10 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-navy"
-              >
-                {content.hero.ctaApps}
-              </Link>
-            </div>
-          </div>
-
-          {/* Stats row */}
-          {content.hero.stats.length > 0 && (
-            <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-4">
-              {content.hero.stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="bg-white/8 border border-white/15 rounded-xl px-5 py-4 text-center"
-                >
-                  <div className="text-2xl lg:text-3xl font-bold text-accent mb-1">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-white/70 font-medium">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          )}
-        </Container>
-      </section>
+      {/* 1. Hero — full viewport with background image */}
+      <Hero
+        headline={content.hero.headline}
+        subtitle={content.hero.subtitle}
+        stats={content.hero.stats}
+        ctaText={content.hero.ctaQuote}
+        ctaHref={contactPath}
+        secondaryCtaText={content.hero.ctaApps}
+        secondaryCtaHref={applicationsPath}
+        backgroundImage="/images/hero.jpg"
+        fullViewport
+      />
 
       {/* 2. TrustBar */}
       <TrustBar title={content.trustBar.title} />
@@ -92,10 +51,10 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
       />
 
       {/* 4. Categories grid */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.categoriesSection.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -120,10 +79,10 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
 
       {/* 5. Featured applications */}
       {featuredApps.length > 0 && (
-        <Section bg="white">
+        <Section bg="dark">
           <Container>
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+              <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
                 {content.featuredSection.title}
               </h2>
               <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -138,9 +97,9 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
                   <Link
                     key={app.id}
                     href={getApplicationPath(app.id, locale)}
-                    className="group flex flex-col bg-white rounded-xl border border-border shadow-sm hover:shadow-lg hover:border-primary/30 transition-all duration-300 p-6"
+                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
                   >
-                    <h3 className="font-semibold text-navy text-lg mb-2 group-hover:text-primary transition-colors duration-200">
+                    <h3 className="font-semibold text-text text-lg mb-2 group-hover:text-accent transition-colors duration-200">
                       {appContent.hero.headline}
                     </h3>
                     <p className="text-text-muted text-sm leading-relaxed flex-1">
@@ -154,7 +113,7 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
             <div className="text-center mt-10">
               <Link
                 href={applicationsPath}
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg border border-primary text-primary hover:bg-primary/5 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors duration-200"
               >
                 {locale === 'pt' ? 'Ver Todas as Aplicações' : 'View All Applications'}
               </Link>
@@ -164,10 +123,10 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
       )}
 
       {/* 6. Why EPDM preview — 4 benefit cards + link */}
-      <Section bg="surface">
+      <Section bg="elevated">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.whyEpdmPreview.title}
             </h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
@@ -180,11 +139,11 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
               <Card key={index}>
                 <CardBody>
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center">
                       <Icon name={point.icon} size={20} className="text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-navy text-base mb-1">{point.title}</h3>
+                      <h3 className="font-semibold text-text text-base mb-1">{point.title}</h3>
                       <p className="text-text-muted text-sm leading-relaxed">
                         {point.description}
                       </p>
@@ -206,20 +165,20 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
         </Container>
       </Section>
 
-      {/* 7. ClimateSection — 3 Portugal zones */}
+      {/* 7. ClimateSection */}
       <ClimateSection
         title={content.climateSection.title}
         points={content.climateSection.zones}
       />
 
       {/* 8. Social proof — testimonials + project counter */}
-      <Section bg="white">
+      <Section bg="dark">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-navy mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.socialProof.title}
             </h2>
-            <p className="text-2xl font-bold text-primary mt-2">
+            <p className="text-2xl font-bold text-accent mt-2">
               {content.socialProof.projectCount}
             </p>
           </div>
@@ -232,7 +191,7 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
                     &ldquo;{testimonial.text}&rdquo;
                   </blockquote>
                   <footer>
-                    <p className="font-semibold text-navy text-sm">{testimonial.author}</p>
+                    <p className="font-semibold text-text text-sm">{testimonial.author}</p>
                     <p className="text-text-muted text-xs">{testimonial.role}</p>
                   </footer>
                 </CardBody>
