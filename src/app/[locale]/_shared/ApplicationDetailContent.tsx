@@ -154,8 +154,8 @@ export function ApplicationDetailContent({
       {/* Installation process steps */}
       <Section bg="elevated">
         <Container>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-text">{labels.installation}</h2>
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-text">{labels.installation}</h2>
           </div>
           <div className="max-w-2xl mx-auto">
             <ProcessSteps steps={content.installationSteps} />

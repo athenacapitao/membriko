@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "EPDM para Água Potável — Reservatórios e Cisternas Certificados ACS/WRAS | Membriko",
+    "description": "Membrana EPDM certificada ACS e WRAS para reservatórios e cisternas de água potável. Sem migração de compostos, vida útil 50+ anos, garantia 20 anos. ERSAR conforme. Membriko, Pombal.",
+    "keywords": [
+      "EPDM água potável",
+      "impermeabilização reservatório água potável",
+      "membrana ACS água potável Portugal",
+      "cisterna água potável EPDM",
+      "revestimento reservatório água potável",
+      "EPDM certificado WRAS água",
+      "reservatório municipal EPDM",
+      "reabilitação reservatório água potável",
+      "membrana água potável ERSAR",
+      "EPDM cisterna doméstica água potável",
+      "impermeabilização cisterna água potável",
+      "torre de água EPDM",
+      "Membriko água potável",
+      "reservatório água potável Portugal",
+      "EPDM NSF água potável"
+    ],
+    "ogTitle": "EPDM Certificado para Água Potável — Reservatórios e Cisternas Seguros | Membriko",
+    "ogDescription": "O único material de impermeabilização com certificação dupla ACS e WRAS para contacto com água destinada a consumo humano. Vida útil 50+ anos, zero migração de compostos, garantia 20 anos. Membriko, Pombal.",
+    "canonicalPath": "/aplicacoes/agua/agua-potavel",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/agua-potavel",
+      "en": "/en/applications/water/potable-water"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Reservatórios de Água Potável com EPDM Certificado",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "EPDM for Potable Water — ACS/WRAS Certified Reservoirs and Cisterns | Membriko",
+    "description": "ACS and WRAS certified EPDM membrane for potable water reservoirs and cisterns. Zero compound migration, 50+ year service life, 20-year warranty. ERSAR compliant. Membriko, Portugal.",
+    "keywords": [
+      "EPDM potable water",
+      "drinking water reservoir waterproofing",
+      "ACS certified EPDM membrane",
+      "potable water cistern EPDM",
+      "drinking water reservoir lining",
+      "WRAS certified EPDM water",
+      "municipal reservoir EPDM lining",
+      "water reservoir rehabilitation EPDM",
+      "potable water tank membrane",
+      "EPDM domestic water cistern",
+      "drinking water storage membrane",
+      "water tower EPDM lining",
+      "Membriko potable water",
+      "NSF 61 EPDM membrane",
+      "certified drinking water membrane Portugal"
+    ],
+    "ogTitle": "Certified EPDM for Potable Water — Safe Reservoirs and Cisterns | Membriko",
+    "ogDescription": "The only waterproofing membrane with dual ACS and WRAS certification for contact with water intended for human consumption. 50+ year service life, zero compound migration, 20-year warranty. Membriko, Portugal.",
+    "canonicalPath": "/en/applications/water/potable-water",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/agua-potavel",
+      "en": "/en/applications/water/potable-water"
+    },
+    "structuredData": {
+      "serviceType": "Potable Water Reservoir Waterproofing with Certified EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

@@ -25,7 +25,7 @@ export function Section({
   return (
     <section
       id={id}
-      className={`py-16 lg:py-24 ${backgroundClasses[bg]} ${className}`}
+      className={`py-10 sm:py-16 lg:py-24 ${backgroundClasses[bg]} ${className}`}
     >
       {children}
     </section>

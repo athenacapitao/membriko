@@ -1,0 +1,76 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Túneis com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para impermeabilização de túneis: resistência hidrostática Classe D (400+ kPa), EN 13491, vida útil 100+ anos. Túneis de vala coberta, perfurados e imersos. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização túnel EPDM",
+      "membrana túnel",
+      "geomembrana EPDM túnel",
+      "impermeabilização túnel Portugal",
+      "membrana túnel EN 13491",
+      "impermeabilização vala coberta",
+      "membrana EPDM engenharia civil",
+      "impermeabilização túnel bored",
+      "geomembrana túnel pressão hidrostática",
+      "membrana túnel metro Lisboa",
+      "membrana túnel metro Porto",
+      "impermeabilização estrutura subterrânea",
+      "EPDM túnel ferroviário",
+      "membrana impermeabilização túnel rodoviário",
+      "Membriko túneis",
+      "impermeabilização túnel EN 13967",
+      "geomembrana subterrânea Portugal",
+      "membrana compartimentação túnel"
+    ],
+    "ogTitle": "Impermeabilização de Túneis EPDM — 100 Anos, Classe D | Membriko",
+    "ogDescription": "Geomembrana EPDM para túneis: resistência hidrostática até 400+ kPa (EN 13491 Classe D), vida útil 100+ anos, compatível com projeto sísmico. Túneis de vala coberta, perfurados e ferroviários em Portugal. Membriko, Pombal.",
+    "canonicalPath": "/aplicacoes/civil/tuneis",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/tuneis",
+      "en": "/en/applications/civil/tunnels"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Túneis com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Tunnel Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM geomembrane for tunnel waterproofing: Class D hydrostatic resistance (400+ kPa), EN 13491 certified, 100+ year service life. Cut-and-cover, bored and immersed tube tunnels. Membriko, Portugal.",
+    "keywords": [
+      "tunnel waterproofing EPDM",
+      "EPDM tunnel membrane",
+      "tunnel geomembrane",
+      "tunnel waterproofing Portugal",
+      "EN 13491 tunnel membrane",
+      "cut-and-cover waterproofing",
+      "EPDM civil engineering waterproofing",
+      "bored tunnel waterproofing",
+      "tunnel hydrostatic pressure membrane",
+      "underground structure waterproofing EPDM",
+      "railway tunnel waterproofing",
+      "road tunnel waterproofing membrane",
+      "Membriko tunnels",
+      "EN 13967 tunnel geomembrane",
+      "tunnel membrane compartmentalisation",
+      "seismic tunnel waterproofing",
+      "EPDM vs PVC tunnel membrane",
+      "100 year tunnel waterproofing"
+    ],
+    "ogTitle": "EPDM Tunnel Waterproofing — 100-Year Service Life, Class D | Membriko",
+    "ogDescription": "EPDM geomembrane for tunnels: hydrostatic resistance to 400+ kPa (EN 13491 Class D), 100+ year service life, seismic expansion joint design. Cut-and-cover, bored and railway tunnels in Portugal. Membriko, Pombal.",
+    "canonicalPath": "/en/applications/civil/tunnels",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/tuneis",
+      "en": "/en/applications/civil/tunnels"
+    },
+    "structuredData": {
+      "serviceType": "Tunnel Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

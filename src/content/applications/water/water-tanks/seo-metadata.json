@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Depósitos de Água com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para depósitos de água: certificada WRAS e NSF 61 para água potável. Vida útil 50+ anos, garantia 20 anos. Depósitos de betão, aço e enterrados. Membriko, Pombal.",
+    "keywords": [
+      "depósito água EPDM",
+      "impermeabilização tanque água",
+      "membrana depósito água potável",
+      "impermeabilizar reservatório betão",
+      "revestimento depósito água Portugal",
+      "EPDM reservatório municipal",
+      "tanque água potável WRAS",
+      "membrana NSF 61 água",
+      "impermeabilização cisterna EPDM",
+      "depósito água incêndio EPDM",
+      "reabilitação reservatório betão",
+      "impermeabilização tanque industrial",
+      "membrana EPDM depósito enterrado",
+      "Membriko depósitos água",
+      "revestimento EPDM água potável"
+    ],
+    "ogTitle": "Depósitos de Água com Membrana EPDM — 50 Anos de Estanquidade | Membriko",
+    "ogDescription": "Chega de revestimentos epóxi que falham ao fim de 10 anos. A membrana EPDM da Membriko impermeabiliza depósitos de betão, aço e enterrados por 50+ anos, com certificação WRAS para água potável. Garantia 20 anos.",
+    "canonicalPath": "/aplicacoes/agua/depositos-de-agua",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/depositos-de-agua",
+      "en": "/en/applications/water/water-tanks"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Depósitos de Água com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Water Tank Lining with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane water tank lining: WRAS and NSF 61 certified for potable water contact. 50+ year service life, 20-year warranty. Concrete, steel and underground tanks. Membriko, Portugal.",
+    "keywords": [
+      "water tank EPDM lining",
+      "EPDM tank waterproofing",
+      "potable water tank membrane",
+      "concrete water tank rehabilitation",
+      "WRAS certified tank liner",
+      "NSF 61 tank lining",
+      "underground water tank EPDM",
+      "fire water tank lining Portugal",
+      "reservoir waterproofing EPDM",
+      "industrial water tank liner",
+      "EPDM vs epoxy tank lining",
+      "water tank membrane Portugal",
+      "Membriko water tanks",
+      "concrete reservoir rehabilitation",
+      "50 year water tank liner"
+    ],
+    "ogTitle": "EPDM Water Tank Lining — 50-Year Watertight Storage | Membriko",
+    "ogDescription": "End the 10-year epoxy recoating cycle. Membriko's EPDM tank liner is WRAS certified for potable water, bridges concrete cracks, and delivers 50+ years of watertight performance. 20-year warranty. Concrete, steel and underground tanks across Portugal.",
+    "canonicalPath": "/en/applications/water/water-tanks",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/depositos-de-agua",
+      "en": "/en/applications/water/water-tanks"
+    },
+    "structuredData": {
+      "serviceType": "Water Tank Lining with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

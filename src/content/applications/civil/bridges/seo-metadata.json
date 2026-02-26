@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Pontes com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para impermeabilização de tabuleiros de pontes: 300–400% de elongação, resistência química ao sal, vida útil 50+ anos sob asfalto. Conforme especificações IP e LNEC. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização ponte EPDM",
+      "impermeabilização tabuleiro ponte",
+      "membrana EPDM pontes",
+      "impermeabilização estruturas pontes Portugal",
+      "reabilitação impermeabilização ponte",
+      "ponte betão EPDM",
+      "membrana impermeável tabuleiro",
+      "impermeabilização viaduto",
+      "EPDM ponte Infraestruturas de Portugal",
+      "impermeabilização pontes IP",
+      "membrana ponte LNEC",
+      "impermeabilização pontes históricas",
+      "impermeabilização arco alvenaria",
+      "Membriko pontes",
+      "impermeabilização obra de arte"
+    ],
+    "ogTitle": "Impermeabilização de Pontes com EPDM — 50 Anos Sob o Asfalto | Membriko",
+    "ogDescription": "A membrana EPDM da Membriko protege tabuleiros de pontes por 50+ anos: 300–400% de elongação para acomodar movimentos estruturais, resistência química total ao sal, sem chama, conforme IP e LNEC. Pombal, Portugal.",
+    "canonicalPath": "/aplicacoes/civil/pontes",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/pontes",
+      "en": "/en/applications/civil/bridges"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Pontes e Viadutos com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Bridge Deck Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for bridge deck waterproofing: 300–400% elongation, full chemical resistance to road salt, 50+ year service life under asphalt. IP and LNEC specification compliant. Membriko, Portugal.",
+    "keywords": [
+      "bridge deck waterproofing EPDM",
+      "EPDM bridge membrane",
+      "bridge waterproofing membrane Portugal",
+      "bridge deck waterproofing system",
+      "concrete bridge waterproofing",
+      "steel bridge deck waterproofing",
+      "masonry arch bridge waterproofing",
+      "viaduct waterproofing EPDM",
+      "bridge rehabilitation waterproofing",
+      "road bridge waterproofing Portugal",
+      "EPDM under asphalt bridge",
+      "bridge deck membrane 50 years",
+      "Membriko bridges",
+      "Infraestruturas de Portugal bridge specification",
+      "historic bridge waterproofing"
+    ],
+    "ogTitle": "Bridge Deck Waterproofing with EPDM — 50 Years Under Asphalt | Membriko",
+    "ogDescription": "Membriko's EPDM membrane protects bridge decks for 50+ years: 300–400% elongation to accommodate structural movement, complete chloride barrier, cold-applied — no open flame. IP and LNEC specification compliant. Portugal.",
+    "canonicalPath": "/en/applications/civil/bridges",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/pontes",
+      "en": "/en/applications/civil/bridges"
+    },
+    "structuredData": {
+      "serviceType": "Bridge and Viaduct Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

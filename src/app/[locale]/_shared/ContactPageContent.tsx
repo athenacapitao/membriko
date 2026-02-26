@@ -260,11 +260,11 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
   }
 
   return (
-    <div className="py-12 lg:py-20 bg-bg min-h-[60vh]">
+    <div className="py-8 sm:py-12 lg:py-20 bg-bg min-h-[60vh]">
       <div className="max-w-2xl mx-auto px-4">
         <StepIndicator currentStep={currentStep} totalSteps={TOTAL_STEPS} />
 
-        <div className="bg-bg-elevated rounded-2xl border border-white/10 p-8">
+        <div className="bg-bg-elevated rounded-2xl border border-white/10 p-5 sm:p-8">
           <form onSubmit={handleSubmit(onSubmit)} noValidate>
             {/* Hidden locale field */}
             <input type="hidden" {...register('locale')} value={locale} />
@@ -431,8 +431,8 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                   ]
                     .filter((item) => item.value)
                     .map((item) => (
-                      <div key={item.label} className="flex gap-4">
-                        <dt className="flex-shrink-0 w-32 text-sm font-medium text-text-muted">
+                      <div key={item.label} className="flex flex-col sm:flex-row gap-1 sm:gap-4">
+                        <dt className="flex-shrink-0 sm:w-32 text-sm font-medium text-text-muted">
                           {item.label}
                         </dt>
                         <dd className="text-sm text-text font-medium">{item.value}</dd>
@@ -454,7 +454,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                 <button
                   type="button"
                   onClick={() => setCurrentStep((prev) => prev - 1)}
-                  className="flex-1 px-6 py-3 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/10 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50"
+                  className="flex-1 px-6 py-3.5 rounded-lg border border-white/20 text-white font-semibold hover:bg-white/10 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 min-h-[48px]"
                 >
                   {s.back}
                 </button>
@@ -464,7 +464,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="flex-1 px-6 py-3 rounded-lg bg-primary text-white font-semibold hover:bg-primary/90 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50"
+                  className="flex-1 px-6 py-3.5 rounded-lg bg-primary text-white font-semibold hover:bg-primary/90 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 min-h-[48px]"
                 >
                   {s.next}
                 </button>
@@ -472,7 +472,7 @@ export function ContactPageContent({ locale }: ContactPageContentProps): React.J
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="flex-1 px-6 py-3 rounded-lg bg-accent text-black font-semibold hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="flex-1 px-6 py-3.5 rounded-lg bg-accent text-black font-semibold hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 disabled:opacity-60 disabled:cursor-not-allowed min-h-[48px]"
                 >
                   {isSubmitting ? s.submitting : s.submit}
                 </button>

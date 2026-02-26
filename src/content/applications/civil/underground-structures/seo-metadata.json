@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Estruturas Subterrâneas com EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para impermeabilização de estruturas subterrâneas: caves, parques de estacionamento, estações de metro e câmaras de serviço. Resistência hidrostática, proteção ao radão. Garantia 20 anos. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização estrutura subterrânea EPDM",
+      "impermeabilização cave EPDM",
+      "membrana EPDM subterrâneo Portugal",
+      "impermeabilização parque estacionamento subterrâneo",
+      "impermeabilização cave pressão hidrostática",
+      "membrana impermeável cave",
+      "sistema de tanking EPDM",
+      "impermeabilização pré-aplicada",
+      "impermeabilização pós-aplicada",
+      "proteção radão membrana",
+      "EPDM cave Portugal",
+      "Membriko estruturas subterrâneas",
+      "impermeabilização subterrânea civil",
+      "membrana EPDM EN 13967",
+      "impermeabilização resistente pressão hidrostática"
+    ],
+    "ogTitle": "Impermeabilização Subterrânea EPDM — Resistência Hidrostática e Proteção ao Radão | Membriko",
+    "ogDescription": "A membrana EPDM da Membriko impermeabiliza caves, parques de estacionamento, estações de metro e câmaras de serviço. Resistência hidrostática superior a 200 kPa, elongação 400%, proteção ao radão. Garantia 20 anos. Pombal, Portugal.",
+    "canonicalPath": "/aplicacoes/civil/estruturas-subterraneas",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/estruturas-subterraneas",
+      "en": "/en/applications/civil/underground-structures"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Estruturas Subterrâneas com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Underground Structure Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane waterproofing for underground structures: basements, car parks, metro stations and utility vaults. Hydrostatic resistance, radon protection, seismic accommodation. 20-year warranty. Membriko, Portugal.",
+    "keywords": [
+      "underground structure waterproofing EPDM",
+      "basement waterproofing EPDM",
+      "EPDM membrane underground Portugal",
+      "underground car park waterproofing",
+      "hydrostatic waterproofing basement",
+      "tanking system EPDM",
+      "pre-applied waterproofing EPDM",
+      "post-applied basement waterproofing",
+      "radon protection membrane",
+      "methane gas membrane underground",
+      "EPDM EN 13967 underground",
+      "Membriko underground structures",
+      "civil waterproofing EPDM",
+      "metro tunnel waterproofing EPDM",
+      "seismic waterproofing Portugal"
+    ],
+    "ogTitle": "Underground Structure Waterproofing with EPDM — Hydrostatic Resistance and Radon Protection | Membriko",
+    "ogDescription": "Membriko's EPDM membrane waterproofs basements, underground car parks, metro stations and utility vaults. Hydrostatic resistance above 200 kPa, 400% elongation, radon protection. 20-year warranty. Based in Pombal, Portugal.",
+    "canonicalPath": "/en/applications/civil/underground-structures",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/estruturas-subterraneas",
+      "en": "/en/applications/civil/underground-structures"
+    },
+    "structuredData": {
+      "serviceType": "Underground Structure Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

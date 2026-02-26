@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Fundações com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para impermeabilização de fundações: resistente a pressão hidrostática, raízes e solos ácidos e alcalinos. Vida útil 50+ anos, garantia 20 anos. Sapatas, lajes, caves e paredes enterradas. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização fundações EPDM",
+      "impermeabilização fundações Portugal",
+      "membrana EPDM fundações",
+      "impermeabilizar fundações",
+      "impermeabilização cave EPDM",
+      "impermeabilização laje fundação",
+      "impermeabilização sapatas",
+      "membrana impermeável fundações",
+      "impermeabilização abaixo do solo",
+      "impermeabilização paredes cave",
+      "impermeabilização pressão hidrostática",
+      "dreno francês impermeabilização",
+      "Membriko fundações",
+      "reabilitação fundações impermeabilização",
+      "membrana fundação EN 13967"
+    ],
+    "ogTitle": "Impermeabilização de Fundações EPDM — Solução Permanente para 50+ Anos | Membriko",
+    "ogDescription": "Chega de infiltrações nas fundações. A membrana EPDM da Membriko resiste a pressão hidrostática, raízes e solos agressivos durante 50+ anos. Garantia 20 anos. Sapatas, lajes, caves e paredes enterradas em Portugal.",
+    "canonicalPath": "/aplicacoes/civil/fundacoes",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/fundacoes",
+      "en": "/en/applications/civil/foundations"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Fundações com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Foundation Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for foundation waterproofing: resistant to hydrostatic pressure, root penetration and aggressive soil chemistry. 50+ year service life, 20-year warranty. Strip foundations, rafts, basements and retaining walls. Membriko, Portugal.",
+    "keywords": [
+      "foundation waterproofing EPDM",
+      "EPDM foundation membrane",
+      "below grade waterproofing Portugal",
+      "basement waterproofing EPDM",
+      "foundation waterproofing membrane",
+      "hydrostatic pressure waterproofing",
+      "raft foundation waterproofing",
+      "basement wall waterproofing",
+      "underground waterproofing membrane",
+      "EN 13967 waterproofing membrane",
+      "French drain foundation waterproofing",
+      "Membriko foundations",
+      "foundation waterproofing retrofit",
+      "EPDM vs bituminous foundation waterproofing",
+      "50 year foundation membrane"
+    ],
+    "ogTitle": "EPDM Foundation Waterproofing — Permanent Protection for 50+ Years | Membriko",
+    "ogDescription": "End foundation water ingress permanently. Membriko's EPDM membrane resists hydrostatic pressure, root penetration and aggressive soil chemistry for 50+ years. 20-year warranty. Strip foundations, rafts, basements and retaining walls in Portugal.",
+    "canonicalPath": "/en/applications/civil/foundations",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/fundacoes",
+      "en": "/en/applications/civil/foundations"
+    },
+    "structuredData": {
+      "serviceType": "Foundation Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

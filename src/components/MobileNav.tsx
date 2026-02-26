@@ -56,7 +56,7 @@ export function MobileNav({
         aria-modal="true"
         aria-label={locale === 'pt' ? 'Menu de navegação' : 'Navigation menu'}
         className={[
-          'fixed top-0 right-0 z-50 h-full w-[min(320px,100vw)] bg-bg-elevated shadow-2xl',
+          'fixed top-0 right-0 z-50 h-full w-[min(320px,calc(100vw-48px))] bg-bg-elevated shadow-2xl',
           'flex flex-col transition-transform duration-300 ease-in-out',
           isOpen ? 'translate-x-0' : 'translate-x-full',
         ].join(' ')}
@@ -73,7 +73,7 @@ export function MobileNav({
           <button
             onClick={onClose}
             aria-label={locale === 'pt' ? 'Fechar menu' : 'Close menu'}
-            className="p-2 rounded-lg text-text-muted hover:text-white hover:bg-white/10 transition-colors"
+            className="p-3 -mr-2 rounded-lg text-text-muted hover:text-white hover:bg-white/10 transition-colors"
           >
             <X size={22} />
           </button>
@@ -86,7 +86,7 @@ export function MobileNav({
             <button
               onClick={() => setApplicationsExpanded((prev) => !prev)}
               aria-expanded={applicationsExpanded}
-              className="flex items-center justify-between w-full py-3 text-white font-medium hover:text-accent transition-colors"
+              className="flex items-center justify-between w-full py-3 text-white font-medium hover:text-accent transition-colors min-h-[44px]"
             >
               <span>{navLabels.applications[locale]}</span>
               {applicationsExpanded ? (
@@ -101,7 +101,7 @@ export function MobileNav({
                 <Link
                   href={applicationsPath}
                   onClick={onClose}
-                  className="block py-2 text-sm text-text-muted hover:text-accent transition-colors"
+                  className="block py-2.5 text-sm text-text-muted hover:text-accent transition-colors min-h-[44px] flex items-center"
                 >
                   {locale === 'pt' ? 'Ver todas as aplicações' : 'View all applications'}
                 </Link>
@@ -110,7 +110,7 @@ export function MobileNav({
                     key={category.id}
                     href={getCategoryPath(category.id, locale)}
                     onClick={onClose}
-                    className="flex items-center justify-between py-2 text-sm text-text-muted hover:text-accent transition-colors"
+                    className="flex items-center justify-between py-2.5 text-sm text-text-muted hover:text-accent transition-colors min-h-[44px]"
                   >
                     <span>{category.title[locale]}</span>
                     <span className="text-xs text-text-light bg-white/10 px-2 py-0.5 rounded-full">
@@ -125,7 +125,7 @@ export function MobileNav({
           <Link
             href={whyEpdmPath}
             onClick={onClose}
-            className="block py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10"
+            className="flex items-center py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10 min-h-[44px]"
           >
             {navLabels.whyEpdm[locale]}
           </Link>
@@ -133,7 +133,7 @@ export function MobileNav({
           <Link
             href={aboutPath}
             onClick={onClose}
-            className="block py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10"
+            className="flex items-center py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10 min-h-[44px]"
           >
             {navLabels.about[locale]}
           </Link>
@@ -141,7 +141,7 @@ export function MobileNav({
           <Link
             href={faqPath}
             onClick={onClose}
-            className="block py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10"
+            className="flex items-center py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10 min-h-[44px]"
           >
             {navLabels.faq[locale]}
           </Link>
@@ -149,7 +149,7 @@ export function MobileNav({
           <Link
             href={contactPath}
             onClick={onClose}
-            className="block py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10"
+            className="flex items-center py-3 text-white font-medium hover:text-accent transition-colors border-t border-white/10 min-h-[44px]"
           >
             {navLabels.contact[locale]}
           </Link>
@@ -167,7 +167,7 @@ export function MobileNav({
           <Link
             href={quotePath}
             onClick={onClose}
-            className="flex items-center justify-center w-full px-6 py-3 bg-accent text-black font-semibold rounded-lg hover:bg-accent-hover transition-colors"
+            className="flex items-center justify-center w-full px-6 py-3.5 bg-accent text-black font-semibold rounded-lg hover:bg-accent-hover transition-colors min-h-[48px]"
           >
             {navLabels.cta[locale]}
           </Link>

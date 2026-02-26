@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Reservatórios de Irrigação com Geomembrana EPDM | Membriko Portugal",
+    "description": "Impermeabilização de reservatórios e charcas agrícolas com membrana EPDM: resistente a UV, seepage zero, vida útil 50+ anos. Elegível PDR2030. Membriko, Pombal — todo o território nacional.",
+    "keywords": [
+      "reservatório irrigação EPDM",
+      "charca agrícola impermeabilização",
+      "geomembrana EPDM Portugal",
+      "impermeabilizar charca agrícola",
+      "reservatório rega membrana",
+      "revestimento charca EPDM",
+      "impermeabilização reservatório água",
+      "membrana geotécnica EPDM",
+      "charca impermeável Alentejo",
+      "reservatório agrícola impermeabilização",
+      "geomembrana irrigação Portugal",
+      "PDR2030 reservatório rega",
+      "Membriko reservatórios",
+      "membrana EPDM rega",
+      "impermeabilização açude agrícola"
+    ],
+    "ogTitle": "Reservatórios de Irrigação Impermeáveis com EPDM — 50 Anos Sem Fugas | Membriko",
+    "ogDescription": "Charcas, tanques e barragens de rega sem perdas por infiltração. A geomembrana EPDM da Membriko garante estanquidade total durante 50+ anos, resiste a UV intenso e é elegível para subsídios PDR2030. Garantia 20 anos.",
+    "canonicalPath": "/aplicacoes/agua/reservatorios-irrigacao",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/reservatorios-irrigacao",
+      "en": "/en/applications/water/irrigation-reservoirs"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Reservatórios de Irrigação com Geomembrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Irrigation Reservoir Lining with EPDM Geomembrane | Membriko Portugal",
+    "description": "EPDM geomembrane lining for agricultural irrigation reservoirs, farm ponds and earth dams: UV stable, zero seepage, 50+ year service life. PDR2030 subsidy eligible. Membriko, Portugal.",
+    "keywords": [
+      "irrigation reservoir EPDM lining",
+      "farm pond waterproofing EPDM",
+      "EPDM geomembrane Portugal",
+      "agricultural reservoir liner",
+      "pond liner Portugal",
+      "earth dam EPDM lining",
+      "irrigation water storage membrane",
+      "geomembrane agricultural reservoir",
+      "EPDM pond liner Alentejo",
+      "farm reservoir waterproofing",
+      "irrigation dam lining EPDM",
+      "EPDM vs HDPE geomembrane",
+      "Membriko irrigation reservoir",
+      "agricultural water storage EPDM",
+      "EPDM geomembrane agricultural"
+    ],
+    "ogTitle": "EPDM Irrigation Reservoir Lining — Zero Seepage for 50+ Years | Membriko",
+    "ogDescription": "Farm ponds, irrigation tanks and earth dams with zero seepage losses. Membriko's EPDM geomembrane delivers watertight irrigation storage for 50+ years, with full UV resistance and eligibility for EU agricultural subsidies. 20-year warranty.",
+    "canonicalPath": "/en/applications/water/irrigation-reservoirs",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/reservatorios-irrigacao",
+      "en": "/en/applications/water/irrigation-reservoirs"
+    },
+    "structuredData": {
+      "serviceType": "Irrigation Reservoir Lining with EPDM Geomembrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

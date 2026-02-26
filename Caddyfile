@@ -1,0 +1,8 @@
+membriko.pt {
+	reverse_proxy localhost:3000
+	encode gzip
+}
+
+www.membriko.pt {
+	redir https://membriko.pt{uri} permanent
+}

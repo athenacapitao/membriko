@@ -21,7 +21,7 @@ export function CategoryCard({
   return (
     <Link
       href={href}
-      className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
+      className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-4 sm:p-6"
     >
       {/* Icon and badge row */}
       <div className="flex items-start justify-between mb-4">

@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Armazenamento de Silagem com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para silos de silagem: resistente a ácidos orgânicos pH 3,5–4,5, lixiviado de fermentação e tráfego de tractores. Vida útil 50+ anos, garantia 15 anos. Conformidade REAP. Membriko, Pombal.",
+    "keywords": [
+      "silagem EPDM",
+      "silo silagem impermeabilização",
+      "silo impermeabilização EPDM",
+      "trincheira silagem membrana",
+      "lixiviado silagem contenção",
+      "impermeabilização silo agrícola Portugal",
+      "EPDM silo milho",
+      "membrana silo silagem resistente ácido",
+      "silo betão revestimento EPDM",
+      "impermeabilizar silo silagem Portugal",
+      "silo trincheira EPDM Membriko",
+      "revestimento silo fermentação",
+      "EPDM lixiviado silagem contenção",
+      "silo silagem conformidade REAP",
+      "membrana silo agrícola Pombal"
+    ],
+    "ogTitle": "Silos de Silagem com EPDM — 50 Anos de Resistência ao Ácido | Membriko",
+    "ogDescription": "O ácido láctico da silagem (pH 3,5–4,5) destrói betão não protegido em 15–20 anos. A membrana EPDM da Membriko resiste por 50+ anos, contém o lixiviado e garante conformidade com o REAP. Visita técnica gratuita.",
+    "canonicalPath": "/aplicacoes/agricola/armazenamento-silagem",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/armazenamento-silagem",
+      "en": "/en/applications/agricultural/silage-storage"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Silos de Silagem com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Silage Storage Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for silage silos and clamps: resistant to organic fermentation acids at pH 3.5–4.5, leachate containment and tractor traffic. 50+ year service life, 15-year warranty. REAP compliant. Membriko, Portugal.",
+    "keywords": [
+      "silage EPDM lining",
+      "silage silo waterproofing",
+      "silage clamp membrane",
+      "bunker silo EPDM lining",
+      "silage leachate containment",
+      "agricultural silo waterproofing Portugal",
+      "EPDM silage storage acid resistant",
+      "silage pit membrane liner",
+      "silage silo concrete lining",
+      "EPDM silage fermentation resistant",
+      "Membriko silage silo",
+      "silage storage REAP compliance Portugal",
+      "lactic acid resistant membrane silo",
+      "silage effluent containment EPDM",
+      "farm silo lining Portugal"
+    ],
+    "ogTitle": "Silage Silos with EPDM — 50 Years of Acid Resistance | Membriko",
+    "ogDescription": "Silage lactic acid (pH 3.5–4.5) destroys unprotected concrete in 15–20 years. Membriko's EPDM membrane resists for 50+ years, contains leachate and ensures REAP compliance. Free technical site visit.",
+    "canonicalPath": "/en/applications/agricultural/silage-storage",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/armazenamento-silagem",
+      "en": "/en/applications/agricultural/silage-storage"
+    },
+    "structuredData": {
+      "serviceType": "Silage Storage Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

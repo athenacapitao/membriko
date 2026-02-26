@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Revestimento de Canais com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para revestimento de canais de irrigação, drenagem e condução de água. Reduz infiltração em 95-99%. Vida útil 50+ anos. Canais de terra e betão. Membriko, Pombal.",
+    "keywords": [
+      "revestimento canal EPDM",
+      "impermeabilização canal irrigação",
+      "membrana canal irrigação Portugal",
+      "revestimento canal betão EPDM",
+      "impermeabilização canal água",
+      "membrana impermeável canal",
+      "revestimento canal terra EPDM",
+      "redução infiltração canal irrigação",
+      "EPDM canal Alentejo",
+      "reabilitação canal betão EPDM",
+      "membrana canal drenagem",
+      "Membriko canais irrigação",
+      "canal impermeável EPDM",
+      "eficiência hídrica canal Portugal",
+      "revestimento canal Alqueva"
+    ],
+    "ogTitle": "Revestimento de Canais com EPDM — Reduz Infiltração em 95% | Membriko",
+    "ogDescription": "A membrana EPDM da Membriko reveste canais de irrigação, drenagem e condução de água com eficiência superior a 95%. Vida útil 50+ anos, instalação sem betão, garantia 15 anos. Válido para PDR/FEADER.",
+    "canonicalPath": "/aplicacoes/agua/revestimento-canais",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/revestimento-canais",
+      "en": "/en/applications/water/canal-lining"
+    },
+    "structuredData": {
+      "serviceType": "Revestimento de Canais de Irrigação com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Canal Lining with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane canal lining for irrigation, drainage and water conveyance. Reduces seepage by 95-99%. 50+ year service life. Earth and concrete canal rehabilitation. Membriko, Portugal.",
+    "keywords": [
+      "canal lining EPDM",
+      "irrigation canal waterproofing EPDM",
+      "EPDM canal membrane Portugal",
+      "concrete canal rehabilitation EPDM",
+      "irrigation canal seepage prevention",
+      "EPDM irrigation channel lining",
+      "water canal membrane",
+      "seepage reduction irrigation",
+      "EPDM canal Alentejo",
+      "concrete canal overlay EPDM",
+      "drainage canal membrane",
+      "Membriko canal lining",
+      "canal waterproofing Portugal",
+      "water efficiency canal lining",
+      "Alqueva canal EPDM"
+    ],
+    "ogTitle": "EPDM Canal Lining — 95% Seepage Reduction, 50-Year Life | Membriko",
+    "ogDescription": "Membriko's EPDM membrane lines irrigation, drainage and conveyance canals with 95-99% seepage reduction. 50+ year service life, no concrete formwork, 15-year guarantee. PDR/FEADER funding eligible.",
+    "canonicalPath": "/en/applications/water/canal-lining",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/revestimento-canais",
+      "en": "/en/applications/water/canal-lining"
+    },
+    "structuredData": {
+      "serviceType": "Canal Lining with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

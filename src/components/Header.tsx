@@ -9,6 +9,7 @@ import { categories } from '@/content/categories'
 import { pageSlugMap, getCategoryPath } from '@/lib/slugs'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { MobileNav } from './MobileNav'
+import { Logo } from './Logo'
 
 interface HeaderProps {
   locale: Locale
@@ -100,9 +101,9 @@ export function Header({
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className="text-xl font-bold text-accent tracking-tight shrink-0"
+              className="shrink-0 hover:opacity-90 transition-opacity"
             >
-              Membriko
+              <Logo size="sm" />
             </Link>
 
             {/* Desktop navigation */}
@@ -211,7 +212,7 @@ export function Header({
               {/* CTA — hidden on small mobile */}
               <Link
                 href={quotePath}
-                className="hidden sm:inline-flex items-center px-4 py-2 bg-accent text-black text-sm font-semibold rounded-lg hover:bg-accent-hover transition-colors"
+                className="hidden sm:inline-flex items-center px-4 py-2.5 bg-accent text-black text-sm font-semibold rounded-lg hover:bg-accent-hover transition-colors min-h-[44px]"
               >
                 {navLabels.cta[locale]}
               </Link>
@@ -220,7 +221,7 @@ export function Header({
               <button
                 onClick={() => setMobileOpen(true)}
                 aria-label={locale === 'pt' ? 'Abrir menu' : 'Open menu'}
-                className="lg:hidden p-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+                className="lg:hidden p-3 -mr-2 rounded-lg text-white/60 hover:text-white hover:bg-white/10 transition-colors"
               >
                 {mobileOpen ? <X size={22} /> : <Menu size={22} />}
               </button>

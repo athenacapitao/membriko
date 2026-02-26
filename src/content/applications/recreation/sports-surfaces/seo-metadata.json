@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Pavimentos Desportivos EPDM — Pistas de Atletismo e Campos | Membriko Portugal",
+    "description": "Pavimentos desportivos EPDM para pistas de atletismo, campos polidesportivos, ginásios e courts de ténis. Compatível com World Athletics. 15-20 anos de vida útil. Membriko, Pombal.",
+    "keywords": [
+      "pavimento desportivo EPDM",
+      "pista atletismo EPDM",
+      "pista atletismo borracha",
+      "campo polidesportivo EPDM",
+      "pavimento ginásio EPDM",
+      "revestimento pista atletismo Portugal",
+      "court ténis EPDM",
+      "superfície desportiva EPDM",
+      "pista atletismo World Athletics",
+      "pavimento desportivo Portugal",
+      "EPDM campo desporto",
+      "revestimento polidesportivo",
+      "pavimento borracha atletismo",
+      "instalação pista atletismo Portugal",
+      "Membriko pavimentos desportivos"
+    ],
+    "ogTitle": "Pavimentos Desportivos EPDM — Pistas, Campos e Ginásios | Membriko",
+    "ogDescription": "EPDM para pistas de atletismo compatíveis com World Athletics, campos polidesportivos, courts de ténis e ginásios. Cor estável 15+ anos, absorção de impacto certificada. Membriko, Pombal, Portugal.",
+    "canonicalPath": "/aplicacoes/recreacao/superficies-desportivas",
+    "hreflang": {
+      "pt": "/aplicacoes/recreacao/superficies-desportivas",
+      "en": "/en/applications/recreation/sports-surfaces"
+    },
+    "structuredData": {
+      "serviceType": "Instalação de Pavimentos Desportivos EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "EPDM Sports Surfaces — Running Tracks, Courts and Gyms | Membriko Portugal",
+    "description": "EPDM sports surfaces for running tracks, multi-sport courts, gyms and tennis courts. World Athletics compatible. 15-20 year service life. Membriko, Pombal, Portugal.",
+    "keywords": [
+      "EPDM sports surface",
+      "EPDM running track",
+      "rubber running track Portugal",
+      "EPDM multi-sport court",
+      "EPDM gym flooring",
+      "athletics track surfacing Portugal",
+      "EPDM tennis court",
+      "sports surface Portugal",
+      "World Athletics track surface",
+      "EPDM sports flooring",
+      "athletics track EPDM",
+      "multi-use games area surfacing",
+      "rubber sports surface Portugal",
+      "running track installation Portugal",
+      "Membriko sports surfaces"
+    ],
+    "ogTitle": "EPDM Sports Surfaces — Tracks, Courts and Gyms | Membriko Portugal",
+    "ogDescription": "EPDM for World Athletics-compatible running tracks, multi-sport courts, tennis courts and gym flooring. Colour-stable for 15+ years, certified shock absorption. Membriko, Pombal, Portugal.",
+    "canonicalPath": "/en/applications/recreation/sports-surfaces",
+    "hreflang": {
+      "pt": "/aplicacoes/recreacao/superficies-desportivas",
+      "en": "/en/applications/recreation/sports-surfaces"
+    },
+    "structuredData": {
+      "serviceType": "EPDM Sports Surface Installation",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

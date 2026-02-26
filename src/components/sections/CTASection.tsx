@@ -25,15 +25,15 @@ export function CTASection({
     >
       <Container>
         <div className="text-center max-w-2xl mx-auto">
-          <h2 id="cta-heading" className="text-3xl lg:text-4xl font-bold mb-4">
+          <h2 id="cta-heading" className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
             {title}
           </h2>
-          <p className="text-lg text-text-muted leading-relaxed mb-8">{subtitle}</p>
+          <p className="text-base sm:text-lg text-text-muted leading-relaxed mb-6 sm:mb-8">{subtitle}</p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={ctaHref}
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-lg bg-accent text-black hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+              className="inline-flex items-center justify-center px-6 py-3.5 sm:px-8 sm:py-4 text-base font-semibold rounded-lg bg-accent text-black hover:bg-accent-hover transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg min-h-[48px]"
             >
               {ctaText}
             </Link>

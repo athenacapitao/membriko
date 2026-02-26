@@ -1,0 +1,250 @@
+{
+  "pt": {
+    "slug": "impermeabilizacao-parede-enterrada-epdm",
+    "title": "Impermeabilização de Paredes Enterradas com EPDM | Membriko",
+    "metaDescription": "Impermeabilização de paredes enterradas, caves e muros de suporte com membrana EPDM. Resistência hidrostática, raízes e química do solo. Garantia 20 anos. Membriko — Pombal.",
+    "h1": "Impermeabilização de Paredes Enterradas com Membrana EPDM",
+    "focusKeyword": "impermeabilização parede enterrada EPDM",
+    "secondaryKeywords": [
+      "impermeabilização cave EPDM",
+      "impermeabilização muro de suporte",
+      "membrana EPDM paredes enterradas",
+      "impermeabilização exterior cave",
+      "membrana impermeabilizante parede subterrânea",
+      "impermeabilização abaixo do nível do solo",
+      "EPDM fundações Portugal",
+      "impermeabilização parede enterrada Portugal",
+      "membrana EPDM cave residencial",
+      "impermeabilização construção enterrada"
+    ],
+    "canonicalUrl": "https://membriko.pt/aplicacoes/envelope/impermeabilizacao-parede-enterrada-epdm",
+    "ogTitle": "Impermeabilização de Paredes Enterradas com EPDM | Membriko",
+    "ogDescription": "Paredes enterradas suportam pressão hidrostática, química do solo e raízes. A membrana EPDM resiste a tudo isto com 50+ anos de vida útil e sem necessidade de substituição.",
+    "ogImage": "/images/applications/envelope/below-grade-walls/hero.jpg",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Impermeabilização de Paredes Enterradas EPDM | Membriko",
+    "twitterDescription": "Caves, muros de suporte e construção enterrada: a membrana EPDM protege onde outros sistemas falham. Resistência química, hidrostática e a raízes. Garantia 20 anos.",
+    "schemaMarkup": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Impermeabilização de Paredes Enterradas com Membrana EPDM",
+      "description": "Instalação profissional de membrana EPDM em paredes enterradas, caves e muros de suporte. Aplicação exterior (positiva), integração de sistema de drenagem, resistência à pressão hidrostática e à química do solo. Garantia de instalação de 20 anos.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Membriko",
+        "url": "https://membriko.pt",
+        "telephone": "+351-XXX-XXX-XXX",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pombal",
+          "addressRegion": "Leiria",
+          "addressCountry": "PT"
+        }
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Portugal"
+      },
+      "serviceType": "Impermeabilização de Paredes Enterradas",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços de Impermeabilização Abaixo do Nível do Solo",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Impermeabilização de Caves EPDM"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Impermeabilização de Muros de Suporte EPDM"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Impermeabilização de Construção Enterrada EPDM"
+            }
+          }
+        ]
+      }
+    },
+    "faqSchema": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O EPDM pode ser aplicado em paredes de pedra ou alvenaria existente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, com preparação adequada do suporte. Paredes de pedra ou alvenaria existente requerem uma camada de reboco com argamassa polimérica para criar uma superfície lisa e contínua antes da aplicação da membrana EPDM. O reboco deve estar totalmente curado antes da aplicação. A Membriko avalia a aptidão do suporte durante a visita de diagnóstico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O EPDM resiste às raízes de árvores e arbustos em jardins adjacentes a cave?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O EPDM passa o ensaio de penetração de raízes FLL (a mesma norma utilizada para membranas de coberturas verdes). Esta resistência é intrínseca ao material, não uma cobertura adicional. As membranas betuminosas não são aprovadas de forma fiável neste ensaio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A membrana EPDM serve também como barreira ao radão em zonas de risco em Portugal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O EPDM tem resistência à difusão de radão comparável às geomembranas PEAD — entre as mais eficazes disponíveis para aplicações abaixo do nível do solo. Nas regiões graníticas do Norte, Beiras e partes do Alentejo (zonas de risco elevado de radão ao abrigo do Decreto-Lei 108/2018), a impermeabilização EPDM em paredes enterradas oferece proteção dupla contra águas subterrâneas e radão numa única camada."
+          }
+        }
+      ]
+    },
+    "breadcrumb": [
+      { "label": "Início", "url": "/" },
+      { "label": "Aplicações", "url": "/aplicacoes" },
+      { "label": "Envolvente do Edifício", "url": "/aplicacoes/envelope" },
+      { "label": "Paredes Enterradas", "url": "/aplicacoes/envelope/impermeabilizacao-parede-enterrada-epdm" }
+    ],
+    "hreflang": {
+      "pt": "https://membriko.pt/aplicacoes/envelope/impermeabilizacao-parede-enterrada-epdm",
+      "en": "https://membriko.pt/en/applications/envelope/below-grade-wall-waterproofing-epdm"
+    },
+    "localBusinessData": {
+      "serviceArea": "Portugal",
+      "baseLocation": "Pombal, Leiria, Portugal",
+      "warrantyOffered": "20 anos de garantia de instalação",
+      "certifications": ["CE EN 13967", "EN 1928", "FLL Raiz", "LNEC"],
+      "sectorKeywords": ["cave", "parede enterrada", "muro de suporte", "construção enterrada", "radão", "impermeabilização"]
+    }
+  },
+  "en": {
+    "slug": "below-grade-wall-waterproofing-epdm",
+    "title": "Below-Grade Wall Waterproofing with EPDM | Membriko Portugal",
+    "metaDescription": "EPDM membrane waterproofing for basement walls, retaining walls and earth-sheltered buildings. Hydrostatic resistance, root protection, radon barrier. 20-year warranty. Membriko — Pombal, Portugal.",
+    "h1": "Below-Grade Wall Waterproofing with EPDM Membrane",
+    "focusKeyword": "below-grade wall waterproofing EPDM",
+    "secondaryKeywords": [
+      "basement wall waterproofing EPDM",
+      "retaining wall waterproofing membrane",
+      "EPDM below ground waterproofing",
+      "external basement waterproofing Portugal",
+      "below-grade membrane waterproofing",
+      "buried wall EPDM membrane",
+      "EPDM foundation waterproofing Portugal",
+      "earth-sheltered building waterproofing",
+      "underground wall waterproofing",
+      "positive side basement waterproofing"
+    ],
+    "canonicalUrl": "https://membriko.pt/en/applications/envelope/below-grade-wall-waterproofing-epdm",
+    "ogTitle": "Below-Grade Wall Waterproofing with EPDM Membrane | Membriko",
+    "ogDescription": "Buried walls face hydrostatic pressure, aggressive soil chemistry and root penetration. EPDM membrane waterproofing from Membriko provides 50+ year protection — with no replacement cycle.",
+    "ogImage": "/images/applications/envelope/below-grade-walls/hero.jpg",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Below-Grade Wall Waterproofing EPDM | Membriko Portugal",
+    "twitterDescription": "Basements, retaining walls, earth-sheltered buildings: EPDM membrane waterproofing with 50+ year service life. Chemical resistance, root resistance, radon barrier. 20-year guarantee.",
+    "schemaMarkup": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Below-Grade Wall Waterproofing with EPDM Membrane",
+      "description": "Professional EPDM membrane installation for basement perimeter walls, retaining walls and earth-sheltered building envelopes. External (positive-side) application with integrated drainage system. 50+ year service life. 20-year installation warranty.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Membriko",
+        "url": "https://membriko.pt",
+        "telephone": "+351-XXX-XXX-XXX",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pombal",
+          "addressRegion": "Leiria",
+          "addressCountry": "PT"
+        }
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Portugal"
+      },
+      "serviceType": "Below-Grade Wall Waterproofing",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Below-Grade Waterproofing Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Basement Wall Waterproofing — EPDM External Application"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Retaining Wall Waterproofing — EPDM with Drainage Board"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Earth-Sheltered Building Envelope Waterproofing"
+            }
+          }
+        ]
+      }
+    },
+    "faqSchema": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can EPDM be applied to existing stone or masonry walls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with surface preparation. Stone or masonry walls require a polymer-modified mortar render coat to create a smooth, continuous substrate before EPDM adhesion. The render must cure fully before membrane application. Membriko assesses substrate suitability during the diagnostic visit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does EPDM resist tree and shrub roots adjacent to basement walls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. EPDM passes the FLL root penetration test — the same standard used for green roof membranes, which are in permanent contact with plant roots. This resistance is intrinsic to the material. Bituminous membranes do not reliably pass this test."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does EPDM act as a radon barrier for basement walls in Portugal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. EPDM has radon diffusion resistance comparable to HDPE geomembranes — among the most effective for below-grade applications. In the granitic regions of northern Portugal and the Beiras (high-risk zones under Decreto-Lei 108/2018), EPDM provides dual-function protection against groundwater and radon in a single membrane layer."
+          }
+        }
+      ]
+    },
+    "breadcrumb": [
+      { "label": "Home", "url": "/en" },
+      { "label": "Applications", "url": "/en/applications" },
+      { "label": "Building Envelope", "url": "/en/applications/envelope" },
+      { "label": "Below-Grade Walls", "url": "/en/applications/envelope/below-grade-wall-waterproofing-epdm" }
+    ],
+    "hreflang": {
+      "pt": "https://membriko.pt/aplicacoes/envelope/impermeabilizacao-parede-enterrada-epdm",
+      "en": "https://membriko.pt/en/applications/envelope/below-grade-wall-waterproofing-epdm"
+    },
+    "localBusinessData": {
+      "serviceArea": "Portugal",
+      "baseLocation": "Pombal, Leiria, Portugal",
+      "warrantyOffered": "20-year installation warranty",
+      "certifications": ["CE EN 13967", "EN 1928", "FLL Root Resistance", "LNEC"],
+      "sectorKeywords": ["basement", "below-grade wall", "retaining wall", "earth-sheltered", "radon barrier", "waterproofing"]
+    }
+  }
+}

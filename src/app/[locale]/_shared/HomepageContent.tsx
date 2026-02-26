@@ -57,12 +57,12 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
             <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.categoriesSection.title}
             </h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
               {content.categoriesSection.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {categories.map((category) => (
               <CategoryCard
                 key={category.id}
@@ -85,19 +85,19 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
               <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
                 {content.featuredSection.title}
               </h2>
-              <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+              <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
                 {content.featuredSection.subtitle}
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {featuredApps.map((app) => {
                 const appContent = app[locale]
                 return (
                   <Link
                     key={app.id}
                     href={getApplicationPath(app.id, locale)}
-                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
+                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-4 sm:p-6"
                   >
                     <h3 className="font-semibold text-text text-lg mb-2 group-hover:text-accent transition-colors duration-200">
                       {appContent.hero.headline}
@@ -113,7 +113,7 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
             <div className="text-center mt-10">
               <Link
                 href={applicationsPath}
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors duration-200 min-h-[48px]"
               >
                 {locale === 'pt' ? 'Ver Todas as Aplicações' : 'View All Applications'}
               </Link>
@@ -129,12 +129,12 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
             <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.whyEpdmPreview.title}
             </h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
               {content.whyEpdmPreview.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto mb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-4xl mx-auto mb-8 sm:mb-10">
             {content.whyEpdmPreview.points.slice(0, 4).map((point, index) => (
               <Card key={index}>
                 <CardBody>
@@ -157,7 +157,7 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
           <div className="text-center">
             <Link
               href={whyEpdmPath}
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors duration-200"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors duration-200 min-h-[48px]"
             >
               {content.whyEpdmPreview.ctaText}
             </Link>
@@ -183,7 +183,7 @@ export function HomepageContent({ locale }: HomepageContentProps): React.JSX.Ele
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
             {content.socialProof.testimonials.map((testimonial, index) => (
               <Card key={index}>
                 <CardBody>

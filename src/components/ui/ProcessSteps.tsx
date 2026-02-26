@@ -15,7 +15,7 @@ export function ProcessSteps({ steps }: ProcessStepsProps): React.JSX.Element {
         const isLast = index === steps.length - 1
 
         return (
-          <li key={item.step} className="flex gap-6">
+          <li key={item.step} className="flex gap-4 sm:gap-6">
             {/* Left column: circle and connecting line */}
             <div className="flex flex-col items-center">
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-accent text-black flex items-center justify-center font-bold text-sm z-10">

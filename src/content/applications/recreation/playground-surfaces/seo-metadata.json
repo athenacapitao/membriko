@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Pavimento EPDM para Parques Infantis — EN 1177 Certificado | Membriko Portugal",
+    "description": "Pavimento de borracha EPDM para parques infantis: certificado EN 1177, HIC < 1.000, altura crítica de queda até 3,0 m. Sistemas bicamada e lajes. Acessível para cadeiras de rodas. Membriko, Pombal.",
+    "keywords": [
+      "pavimento parque infantil EPDM",
+      "piso borracha parque infantil",
+      "pavimento segurança parque infantil",
+      "borracha EPDM parque infantil Portugal",
+      "piso EPDM recreio escolar",
+      "pavimento impacto EN 1177",
+      "altura crítica de queda parque infantil",
+      "HIC parque infantil",
+      "lajes EPDM parque infantil",
+      "sistema bicamada parque infantil",
+      "pavimento inclusivo parque infantil",
+      "superfície segura equipamento infantil",
+      "Membriko parques infantis",
+      "piso borracha escola Portugal",
+      "pavimento recreio EN 1176"
+    ],
+    "ogTitle": "Pavimento EPDM para Parques Infantis — Segurança Certificada EN 1177 | Membriko",
+    "ogDescription": "Proteção real contra quedas: pavimento EPDM certificado EN 1177, HIC < 1.000, altura crítica de queda até 3,0 m. Sistemas bicamada e lajes para municípios, escolas e condomínios. Membriko, Pombal.",
+    "canonicalPath": "/aplicacoes/recreacao/parques-infantis",
+    "hreflang": {
+      "pt": "/aplicacoes/recreacao/parques-infantis",
+      "en": "/en/applications/recreation/playground-surfaces"
+    },
+    "structuredData": {
+      "serviceType": "Pavimento de Segurança EPDM para Parques Infantis",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "EPDM Playground Surfaces — EN 1177 Certified Safety Surfacing | Membriko Portugal",
+    "description": "EPDM rubber playground surfacing: EN 1177 certified, HIC < 1,000, critical fall height up to 3.0 m. Poured-in-place and tile systems. Wheelchair accessible. Membriko, Pombal, Portugal.",
+    "keywords": [
+      "playground EPDM surface",
+      "EPDM playground surfacing Portugal",
+      "EN 1177 playground surface",
+      "critical fall height playground",
+      "rubber playground surface",
+      "poured-in-place EPDM playground",
+      "EPDM safety tiles playground",
+      "HIC playground surface",
+      "playground safety surfacing",
+      "inclusive playground surface",
+      "wheelchair accessible playground surface",
+      "school playground rubber surface",
+      "Membriko playground",
+      "EPDM vs rubber mulch playground",
+      "impact attenuating playground surface"
+    ],
+    "ogTitle": "EPDM Playground Safety Surfaces — EN 1177 Certified | Membriko Portugal",
+    "ogDescription": "Real fall protection: EN 1177-certified EPDM playground surfacing, HIC < 1,000, critical fall height to 3.0 m. Poured-in-place and tile systems for councils, schools and private clients. Membriko, Portugal.",
+    "canonicalPath": "/en/applications/recreation/playground-surfaces",
+    "hreflang": {
+      "pt": "/aplicacoes/recreacao/parques-infantis",
+      "en": "/en/applications/recreation/playground-surfaces"
+    },
+    "structuredData": {
+      "serviceType": "EPDM Playground Safety Surfacing",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

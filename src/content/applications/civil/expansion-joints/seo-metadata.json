@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Juntas de Dilatação com EPDM | Membriko Portugal",
+    "description": "Juntas de dilatação impermeabilizadas com membrana EPDM: ±25% capacidade de movimento, vida útil 50+ anos, garantia 20 anos. Edifícios, pontes, coberturas e pavimentos. Membriko, Pombal.",
+    "keywords": [
+      "junta dilatação EPDM",
+      "impermeabilização junta dilatação",
+      "vedação junta dilatação",
+      "junta de dilatação impermeável",
+      "membrana EPDM junta",
+      "impermeabilização junta estrutural",
+      "junta dilatação edifício EPDM",
+      "junta dilatação ponte EPDM",
+      "junta dilatação cobertura EPDM",
+      "perfil EPDM junta dilatação",
+      "vedante elastomérico junta",
+      "junta sísmica EPDM",
+      "impermeabilizar junta betão",
+      "Membriko juntas dilatação",
+      "renovação junta dilatação EPDM"
+    ],
+    "ogTitle": "Juntas de Dilatação EPDM — ±25% de Movimento, 50 Anos de Estanqueidade | Membriko",
+    "ogDescription": "Chega de vedantes que se fisuram a cada 10 anos. A membrana EPDM da Membriko sela juntas de dilatação com capacidade de movimento ±25%, vida útil 50+ anos e garantia de 20 anos. Edifícios, coberturas, pontes e pavimentos em Portugal.",
+    "canonicalPath": "/aplicacoes/civil/juntas-dilatacao",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/juntas-dilatacao",
+      "en": "/en/applications/civil/expansion-joints"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Juntas de Dilatação com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Expansion Joint Waterproofing with EPDM | Membriko Portugal",
+    "description": "EPDM expansion joint sealing: ±25% movement capacity, 50+ year service life, 20-year warranty. Buildings, bridges, roofs and pavements. Membriko, Portugal.",
+    "keywords": [
+      "expansion joint EPDM",
+      "expansion joint waterproofing",
+      "EPDM expansion joint seal",
+      "expansion joint membrane Portugal",
+      "EPDM joint profile",
+      "structural joint waterproofing",
+      "building expansion joint EPDM",
+      "bridge expansion joint EPDM",
+      "roof expansion joint EPDM",
+      "seismic joint EPDM",
+      "elastomeric joint sealant",
+      "concrete expansion joint EPDM",
+      "Membriko expansion joints",
+      "expansion joint renovation EPDM",
+      "movement joint waterproofing Portugal"
+    ],
+    "ogTitle": "EPDM Expansion Joint Sealing — ±25% Movement, 50 Years of Watertightness | Membriko",
+    "ogDescription": "End the 10-year sealant replacement cycle. Membriko's EPDM expansion joint seals accommodate ±25% movement, last 50+ years and carry a 20-year warranty. Buildings, roofs, bridges and pavements throughout Portugal.",
+    "canonicalPath": "/en/applications/civil/expansion-joints",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/juntas-dilatacao",
+      "en": "/en/applications/civil/expansion-joints"
+    },
+    "structuredData": {
+      "serviceType": "Expansion Joint Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

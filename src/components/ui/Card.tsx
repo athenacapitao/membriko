@@ -17,7 +17,7 @@ export function Card({ children, className = '' }: CardProps): React.JSX.Element
 
 export function CardHeader({ children, className = '' }: CardProps): React.JSX.Element {
   return (
-    <div className={`px-6 pt-6 pb-4 border-b border-white/10 ${className}`}>
+    <div className={`px-4 pt-4 pb-3 sm:px-6 sm:pt-6 sm:pb-4 border-b border-white/10 ${className}`}>
       {children}
     </div>
   )
@@ -25,7 +25,7 @@ export function CardHeader({ children, className = '' }: CardProps): React.JSX.E
 
 export function CardBody({ children, className = '' }: CardProps): React.JSX.Element {
   return (
-    <div className={`px-6 py-5 ${className}`}>
+    <div className={`px-4 py-4 sm:px-6 sm:py-5 ${className}`}>
       {children}
     </div>
   )

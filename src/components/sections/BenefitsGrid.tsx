@@ -17,15 +17,15 @@ export function BenefitsGrid({ title, subtitle, benefits }: BenefitsGridProps): 
     <Section bg="elevated">
       <Container>
         {/* Section header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">{title}</h2>
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-text mb-3 sm:mb-4">{title}</h2>
           {subtitle && (
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
           )}
         </div>
 
         {/* Benefits grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {benefits.map((benefit, index) => (
             <Card key={index}>
               <CardBody>

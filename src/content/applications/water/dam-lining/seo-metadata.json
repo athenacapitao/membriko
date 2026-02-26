@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Revestimento de Barragens com Geomembrana EPDM | Membriko Portugal",
+    "description": "Geomembrana EPDM para barragens, reservatórios e açudes. Resistência hidrostática, elongação 300-400%, vida útil 50+ anos. Reabilitação de barragens em Portugal. Membriko, Pombal.",
+    "keywords": [
+      "revestimento barragem EPDM",
+      "geomembrana barragem",
+      "impermeabilização barragem Portugal",
+      "geomembrana reservatório EPDM",
+      "revestimento açude EPDM",
+      "impermeabilização reservatório",
+      "geomembrana EPDM Portugal",
+      "reabilitação barragem geomembrana",
+      "impermeabilização charca EPDM",
+      "membrana EPDM barragem terra",
+      "revestimento reservatório agrícola",
+      "geomembrana impermeabilização barragem",
+      "Membriko barragens",
+      "revestimento barragem geomembrana EPDM",
+      "impermeabilização açude Portugal"
+    ],
+    "ogTitle": "Revestimento de Barragens com EPDM — Geomembrana para 50+ Anos | Membriko",
+    "ogDescription": "Reabilitação de barragens e reservatórios com geomembrana EPDM: resistência hidrostática até 200 kPa, elongação 300-400% para acomodar assentamentos, vida útil 50+ anos. Garantia 20 anos. Membriko, Pombal.",
+    "canonicalPath": "/aplicacoes/agua/revestimento-barragens",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/revestimento-barragens",
+      "en": "/en/applications/water/dam-lining"
+    },
+    "structuredData": {
+      "serviceType": "Revestimento de Barragens e Reservatórios com Geomembrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Dam Lining with EPDM Geomembrane | Membriko Portugal",
+    "description": "EPDM geomembrane for dam and reservoir lining: hydrostatic resistance to 200 kPa, 300-400% elongation for settlement tolerance, 50+ year service life. Dam rehabilitation in Portugal. Membriko, Pombal.",
+    "keywords": [
+      "EPDM dam lining",
+      "geomembrane dam",
+      "reservoir lining EPDM",
+      "dam geomembrane Portugal",
+      "earth dam waterproofing",
+      "EPDM geomembrane reservoir",
+      "dam rehabilitation geomembrane",
+      "reservoir waterproofing Portugal",
+      "EPDM vs HDPE geomembrane",
+      "small dam lining",
+      "geomembrane for dams",
+      "Membriko dam lining",
+      "EPDM reservoir liner",
+      "agricultural reservoir waterproofing",
+      "dam geomembrane rehabilitation"
+    ],
+    "ogTitle": "Dam and Reservoir Lining with EPDM Geomembrane — 50+ Years | Membriko",
+    "ogDescription": "Rehabilitate leaking dams and reservoirs with EPDM geomembrane: hydrostatic resistance to 200 kPa, 300-400% elongation for differential settlement tolerance, 50+ year service life. 20-year Membriko warranty. Portugal.",
+    "canonicalPath": "/en/applications/water/dam-lining",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/revestimento-barragens",
+      "en": "/en/applications/water/dam-lining"
+    },
+    "structuredData": {
+      "serviceType": "Dam and Reservoir Lining with EPDM Geomembrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

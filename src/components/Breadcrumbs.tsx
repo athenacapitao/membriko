@@ -40,7 +40,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps): React.JSX.Element {
             const isLast = index === items.length - 1
 
             return (
-              <li key={index} className="flex items-center gap-1">
+              <li key={index} className="flex items-center gap-1 min-h-[44px]">
                 {index > 0 && (
                   <ChevronRight
                     size={14}

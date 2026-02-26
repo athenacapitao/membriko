@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { isValidLocale, locales } from '@/lib/i18n'
@@ -16,6 +16,14 @@ const inter = Inter({
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  themeColor: '#0a0a0a',
 }
 
 export const metadata: Metadata = {

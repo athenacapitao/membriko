@@ -99,30 +99,29 @@ export interface HomepageContent {
 
 const pt: HomepageContent = {
   meta: {
-    title: 'Membriko – Especialistas em Membrana EPDM em Portugal | Impermeabilização de Alta Durabilidade',
+    title: 'Membriko – Aplicação Profissional de Membrana EPDM em Portugal',
     description:
-      'A Membriko é o especialista português em instalação de membrana EPDM. Impermeabilização com 50+ anos de vida útil, 100% reciclável e sem trabalho a quente. Orçamento gratuito.',
+      'A Membriko aplica membrana EPDM em coberturas, piscinas, lagos, fundações e muito mais. Selecionamos as melhores membranas do mercado e instalamos com precisão. Orçamento gratuito.',
     keywords: [
-      'membrana EPDM',
-      'impermeabilização EPDM Portugal',
+      'aplicação membrana EPDM',
+      'instalação EPDM Portugal',
+      'impermeabilização EPDM',
       'telhado plano EPDM',
       'impermeabilização telhado',
-      'membrana borracha sintética',
       'EPDM cobertura',
       'impermeabilização piscina EPDM',
       'telhado verde EPDM',
-      'instalação EPDM Portugal',
       'membrana impermeabilizante',
       'Membriko',
     ],
   },
 
   hero: {
-    headline: 'A Membrana EPDM que Protege Portugal',
+    headline: 'Nós Aplicamos EPDM. É o Que Fazemos.',
     subtitle:
-      'Impermeabilização de alta durabilidade com membrana EPDM — a escolha de engenheiros e arquitetos para coberturas, piscinas, fundações e muito mais. Sem trabalho a quente, sem manutenção, 50+ anos de vida útil.',
+      'Não fabricamos membranas. Selecionamos as melhores do mercado e aplicamos com precisão cirúrgica — em coberturas, piscinas, lagos, fundações ou o que o seu projeto exigir.',
     ctaQuote: 'Pedir Orçamento Grátis',
-    ctaApps: 'Ver Todas as Aplicações',
+    ctaApps: 'Ver Aplicações',
     stats: [
       { value: '50+', label: 'Anos de Vida Útil' },
       { value: '100%', label: 'Reciclável' },
@@ -132,161 +131,160 @@ const pt: HomepageContent = {
   },
 
   trustBar: {
-    title: 'Certificado e Aprovado pelos Padrões Europeus',
+    title: 'Membranas Certificadas dos Melhores Fabricantes Europeus',
   },
 
   problemSolution: {
     problem: {
-      title: 'O Problema das Membranas Tradicionais',
+      title: 'Impermeabilização Mal Aplicada Custa Caro',
       description:
-        'Betume, PVC e TPO degradam-se rapidamente sob o sol português, exigem reparações frequentes e colocam riscos de segurança durante a instalação a quente.',
+        'O problema raramente é o material — é quem o aplica. Betume mal instalado, PVC com juntas fracas, obras sem garantia. O resultado? Infiltrações, reparações e dinheiro ao lixo.',
       points: [
-        'Vida útil de apenas 15–25 anos com betume',
-        'Degradação UV acelera fissuras e infiltrações',
-        'Instalação com chama cria risco de incêndio',
-        'Manutenção anual cara e disruptiva',
-        'PVC liberta plastificantes nocivos ao longo do tempo',
-        'Baixo desempenho em climas de temperatura variável',
+        'Betume dura 15–25 anos, no máximo',
+        'Sol português destrói membranas baratas em poucos anos',
+        'Instalação com chama = risco de incêndio',
+        'Manutenção anual que nunca acaba',
+        'PVC liberta químicos nocivos com o tempo',
+        'A maioria dos instaladores não é especialista em EPDM',
       ],
     },
     solution: {
-      title: 'A Solução Membriko EPDM',
+      title: 'A Membriko Resolve',
       description:
-        'A membrana EPDM é borracha sintética vulcanizada com 50+ anos de vida comprovada, instalada a frio por especialistas certificados da Membriko em todo o país.',
+        'Somos especialistas em aplicação de EPDM. Trabalhamos com os melhores fabricantes europeus e aplicamos a membrana certa para cada projeto — instalada a frio, sem manutenção, feita para durar.',
       points: [
-        'Vida útil superior a 50 anos sem degradação significativa',
-        'Resistência UV intrínseca — sem revestimentos adicionais',
-        'Instalação sem chama — zero risco de incêndio',
-        'Sem manutenção preventiva obrigatória',
-        '100% reciclável — a escolha sustentável',
+        '50+ anos de vida útil comprovada',
+        'Resistência UV de fábrica — sem revestimentos extra',
+        'Instalação a frio — zero risco de incêndio',
+        'Sem manutenção obrigatória',
+        '100% reciclável',
         'Funciona de -45 °C a +130 °C',
       ],
     },
   },
 
   categoriesSection: {
-    title: 'Aplicações EPDM para Cada Projeto',
+    title: 'Onde Aplicamos EPDM',
     subtitle:
-      'Da cobertura de um moradia à impermeabilização de uma estação de tratamento de águas — o EPDM adapta-se a tudo.',
+      'De telhados a lagos artificiais, de piscinas a estações de tratamento — se precisa de impermeabilização, nós aplicamos.',
   },
 
   featuredSection: {
-    title: 'Projetos em Destaque',
-    subtitle: 'Exemplos reais de impermeabilização EPDM em Portugal',
+    title: 'Trabalhos Recentes',
+    subtitle: 'Projetos reais. Resultados reais.',
   },
 
   whyEpdmPreview: {
-    title: 'Porquê Escolher EPDM?',
+    title: 'Porquê EPDM?',
     subtitle:
-      'Seis razões técnicas que fazem do EPDM a membrana impermeabilizante mais avançada do mercado.',
+      'Não vendemos EPDM porque é moda. Vendemos porque é o melhor material de impermeabilização que existe.',
     points: [
       {
         icon: 'Clock',
-        title: 'Durabilidade de 50+ Anos',
+        title: '50+ Anos de Durabilidade',
         description:
-          'Estudos independentes confirmam que membranas EPDM com 28–32 anos ainda apresentam desempenho "como novas". Nenhuma outra membrana chega perto.',
+          'Membranas EPDM com 30 anos ainda funcionam como novas. Nenhum outro material chega perto.',
       },
       {
         icon: 'Sun',
-        title: 'Resistência UV Superior',
+        title: 'Feito para o Sol Português',
         description:
-          'O EPDM não necessita de revestimentos adicionais contra UV. A sua composição molecular resiste à radiação solar contínua, essencial no clima português.',
+          'Resistência UV intrínseca. Não precisa de revestimentos. Não degrada. Não fissura.',
       },
       {
         icon: 'Recycle',
         title: '100% Reciclável',
         description:
-          'No fim de vida, a membrana EPDM é totalmente reciclável. Avaliações de ciclo de vida (LCA) mostram impacto de carbono inferior ao PVC e betume.',
+          'Menor pegada de carbono que PVC ou betume. No fim de vida, recicla-se por completo.',
       },
       {
         icon: 'Flame',
         title: 'Instalação a Frio',
         description:
-          'Sem maçarico, sem odores, sem risco de incêndio. A adesão é feita com cola especializada, tornando a instalação mais segura para operários e edifícios.',
+          'Sem chama, sem fumos, sem risco. Colagem especializada que é mais segura e mais rápida.',
       },
       {
         icon: 'Thermometer',
-        title: 'Gama Térmica Extrema',
+        title: 'Resiste a Tudo',
         description:
-          'Mantém flexibilidade e impermeabilidade de -45 °C a +130 °C. Perfeito para as variações climáticas entre o Minho e o Algarve.',
+          'De -45 °C a +130 °C. Do Minho ao Algarve, em qualquer estação.',
       },
       {
         icon: 'Zap',
-        title: '300–600% de Elongação',
+        title: 'Elasticidade Extrema',
         description:
-          'A elasticidade excepcional permite que a membrana acompanhe movimentos estruturais e dilatações térmicas sem fissurar nem destacar.',
+          'Estica 300–600% sem rasgar. Acompanha movimentos estruturais sem fissurar.',
       },
     ],
-    ctaText: 'Saber Mais Sobre o EPDM',
+    ctaText: 'Saber Mais Sobre EPDM',
   },
 
   climateSection: {
-    title: 'Ideal para o Clima Português',
+    title: 'Funciona em Todo o País',
     subtitle:
-      'Portugal apresenta três zonas climáticas distintas. O EPDM foi concebido para superar cada uma delas.',
+      'Portugal tem três climas distintos. O EPDM domina todos.',
     zones: [
       {
-        zone: 'Norte e Interior — Clima Temperado Oceânico',
+        zone: 'Norte e Interior',
         description:
-          'Invernos frios com chuva persistente e verões quentes. O EPDM resiste a ciclos alternados de frio e calor sem empenar ou fissurar, mantendo a estanqueidade perfeita durante décadas.',
+          'Chuva, frio, calor intenso. O EPDM aguenta ciclos térmicos extremos sem empenar nem fissurar. Décadas sem problemas.',
       },
       {
-        zone: 'Lisboa, Centro e Alentejo — Clima Mediterrânico',
+        zone: 'Lisboa, Centro e Alentejo',
         description:
-          'Verões secos e quentes com índice UV elevado. A resistência UV intrínseca do EPDM elimina a necessidade de revestimentos periódicos, reduzindo custos de manutenção a longo prazo.',
+          'Sol forte e UV elevado. O EPDM não precisa de revestimentos — resiste por natureza. Menos manutenção, menos custos.',
       },
       {
-        zone: 'Algarve e Costa Atlântica — Clima Costeiro',
+        zone: 'Algarve e Costa',
         description:
-          'Salinidade do ar marítimo e humidade elevada são fatores que destroem o betume em poucos anos. O EPDM é inerte a cloretos e não oxida, garantindo proteção duradoura em zonas costeiras.',
+          'Sal, humidade, maresia. Onde o betume apodrece em anos, o EPDM mantém-se intacto. Não oxida, não degrada.',
       },
     ],
   },
 
   socialProof: {
-    title: 'O Que Dizem os Nossos Clientes',
+    title: 'Quem Trabalhou Connosco, Sabe',
     testimonials: [
       {
-        text: 'Instalámos membrana EPDM da Membriko numa cobertura plana de 1 200 m² há seis anos. Não houve uma única infiltração desde então. O trabalho foi rápido, limpo e sem perturbações para os nossos inquilinos.',
+        text: 'Cobertura plana de 1 200 m², há seis anos. Zero infiltrações. Trabalho rápido, limpo, sem chatices.',
         author: 'António Ferreira',
         role: 'Gestor de Condomínio, Lisboa',
       },
       {
-        text: 'Escolhemos a Membriko para impermeabilizar a nossa piscina natural. O resultado superou todas as expectativas — a membrana adapta-se perfeitamente à forma irregular do lago e a qualidade da água melhorou.',
+        text: 'Impermeabilizaram a nossa piscina natural. A membrana adaptou-se à forma irregular do lago na perfeição. Resultado impecável.',
         author: 'Maria João Costa',
         role: 'Proprietária de Quinta, Alentejo',
       },
       {
-        text: 'Como empreiteiro, trabalho com várias membranas. O EPDM da Membriko é de longe o mais fácil de instalar e o mais fiável a longo prazo. Os meus clientes nunca se arrependem da escolha.',
+        text: 'Trabalho com várias membranas há 20 anos. O EPDM que a Membriko aplica é o mais fiável. Ponto final.',
         author: 'Carlos Silva',
-        role: 'Empreiteiro de Construção, Porto',
+        role: 'Empreiteiro, Porto',
       },
     ],
-    projectCount: '500+ projetos concluídos em Portugal',
+    projectCount: '500+ projetos em Portugal',
   },
 
   cta: {
-    title: 'Pronto para Impermeabilizar com Qualidade?',
+    title: 'Tem um Projeto? Fale Connosco.',
     subtitle:
-      'Solicite um orçamento gratuito e sem compromisso. A nossa equipa avalia o seu projeto e apresenta a solução EPDM ideal.',
-    buttonText: 'Pedir Orçamento Gratuito',
+      'Orçamento gratuito, sem compromisso. Avaliamos o seu projeto e recomendamos a melhor solução.',
+    buttonText: 'Pedir Orçamento',
   },
 }
 
 const en: HomepageContent = {
   meta: {
-    title: 'Membriko – EPDM Membrane Specialists in Portugal | High-Durability Waterproofing',
+    title: 'Membriko – Professional EPDM Membrane Application in Portugal',
     description:
-      'Membriko is Portugal\'s EPDM membrane installation specialist. Waterproofing with 50+ year lifespan, 100% recyclable and no hot-work required. Free quote available.',
+      'Membriko applies EPDM membrane to roofs, pools, ponds, foundations and more. We source the best membranes and install them with precision. Free quote.',
     keywords: [
-      'EPDM membrane Portugal',
+      'EPDM membrane application',
+      'EPDM installation Portugal',
       'EPDM waterproofing',
       'flat roof EPDM',
       'rubber membrane roofing',
-      'EPDM installation Portugal',
       'pool waterproofing EPDM',
       'green roof EPDM',
-      'synthetic rubber membrane',
       'waterproofing membrane',
       'Membriko',
       'EPDM roofing specialist',
@@ -294,11 +292,11 @@ const en: HomepageContent = {
   },
 
   hero: {
-    headline: 'The EPDM Membrane That Protects Portugal',
+    headline: 'We Apply EPDM. That\'s What We Do.',
     subtitle:
-      'High-durability waterproofing with EPDM membrane — the choice of engineers and architects for roofs, pools, foundations and much more. No hot-work, no maintenance, 50+ year lifespan.',
+      'We don\'t manufacture membranes. We source the best on the market and apply them with surgical precision — on roofs, pools, ponds, foundations, or whatever your project demands.',
     ctaQuote: 'Get a Free Quote',
-    ctaApps: 'View All Applications',
+    ctaApps: 'See Applications',
     stats: [
       { value: '50+', label: 'Year Lifespan' },
       { value: '100%', label: 'Recyclable' },
@@ -308,144 +306,144 @@ const en: HomepageContent = {
   },
 
   trustBar: {
-    title: 'Certified and Approved to European Standards',
+    title: 'Certified Membranes from Top European Manufacturers',
   },
 
   problemSolution: {
     problem: {
-      title: 'The Problem with Traditional Membranes',
+      title: 'Bad Application Costs You More Than Bad Material',
       description:
-        'Bitumen, PVC and TPO deteriorate rapidly under the Portuguese sun, require frequent repairs and pose safety hazards during hot-work installation.',
+        'The problem is rarely the material — it\'s who installs it. Poorly applied bitumen, weak PVC joints, no warranty. The result? Leaks, repairs, and money down the drain.',
       points: [
-        'Only 15–25 year lifespan with bitumen',
-        'UV degradation accelerates cracking and water ingress',
-        'Torch-applied installation creates fire risk',
-        'Expensive and disruptive annual maintenance',
-        'PVC leaches harmful plasticisers over time',
-        'Poor performance across variable climatic conditions',
+        'Bitumen lasts 15–25 years, at best',
+        'Portuguese sun destroys cheap membranes in years',
+        'Torch installation = fire risk',
+        'Never-ending annual maintenance',
+        'PVC leaches harmful chemicals over time',
+        'Most installers aren\'t EPDM specialists',
       ],
     },
     solution: {
-      title: 'The Membriko EPDM Solution',
+      title: 'Membriko Gets It Done',
       description:
-        'EPDM membrane is vulcanised synthetic rubber with a proven 50+ year lifespan, cold-applied by Membriko\'s certified specialists across Portugal.',
+        'We specialise in EPDM application. We work with the best European manufacturers and apply the right membrane for each project — cold-installed, maintenance-free, built to last.',
       points: [
-        'Lifespan exceeding 50 years with no significant degradation',
-        'Inherent UV resistance — no additional coatings needed',
+        '50+ year proven lifespan',
+        'Factory-built UV resistance — no coatings needed',
         'Cold installation — zero fire risk',
-        'No mandatory preventive maintenance',
-        '100% recyclable — the sustainable choice',
+        'No mandatory maintenance',
+        '100% recyclable',
         'Performs from -45°C to +130°C',
       ],
     },
   },
 
   categoriesSection: {
-    title: 'EPDM Applications for Every Project',
+    title: 'Where We Apply EPDM',
     subtitle:
-      'From a residential roof to a water treatment plant — EPDM adapts to every challenge.',
+      'From rooftops to artificial lakes, from pools to treatment plants — if it needs waterproofing, we apply it.',
   },
 
   featuredSection: {
-    title: 'Featured Projects',
-    subtitle: 'Real-world EPDM waterproofing projects across Portugal',
+    title: 'Recent Work',
+    subtitle: 'Real projects. Real results.',
   },
 
   whyEpdmPreview: {
-    title: 'Why Choose EPDM?',
+    title: 'Why EPDM?',
     subtitle:
-      'Six technical reasons why EPDM is the most advanced waterproofing membrane on the market.',
+      'We don\'t push EPDM because it\'s trendy. We push it because it\'s the best waterproofing material that exists.',
     points: [
       {
         icon: 'Clock',
         title: '50+ Year Durability',
         description:
-          'Independent studies confirm EPDM membranes aged 28–32 years still perform "like new". No other membrane comes close to this longevity.',
+          'EPDM membranes aged 30 years still perform like new. Nothing else comes close.',
       },
       {
         icon: 'Sun',
-        title: 'Superior UV Resistance',
+        title: 'Built for the Portuguese Sun',
         description:
-          'EPDM requires no additional UV coatings. Its molecular composition resists continuous solar radiation — essential in Portugal\'s sunny climate.',
+          'Inherent UV resistance. No coatings needed. Doesn\'t degrade. Doesn\'t crack.',
       },
       {
         icon: 'Recycle',
         title: '100% Recyclable',
         description:
-          'At end of life, EPDM membrane is fully recyclable. Life Cycle Assessments show a lower carbon footprint than PVC or bitumen.',
+          'Lower carbon footprint than PVC or bitumen. Fully recyclable at end of life.',
       },
       {
         icon: 'Flame',
         title: 'Cold-Applied Installation',
         description:
-          'No torch, no fumes, no fire risk. Bonding is achieved with specialist adhesive, making installation safer for workers and buildings alike.',
+          'No flame, no fumes, no risk. Specialist bonding that\'s safer and faster.',
       },
       {
         icon: 'Thermometer',
-        title: 'Extreme Temperature Range',
+        title: 'Handles Everything',
         description:
-          'Maintains flexibility and watertightness from -45°C to +130°C — perfect for Portugal\'s climate variations from the Minho to the Algarve.',
+          'From -45°C to +130°C. From the Minho to the Algarve, any season.',
       },
       {
         icon: 'Zap',
-        title: '300–600% Elongation',
+        title: 'Extreme Elasticity',
         description:
-          'Exceptional elasticity allows the membrane to follow structural movements and thermal expansion without cracking or delaminating.',
+          'Stretches 300–600% without tearing. Follows structural movement without cracking.',
       },
     ],
     ctaText: 'Learn More About EPDM',
   },
 
   climateSection: {
-    title: 'Ideal for the Portuguese Climate',
+    title: 'Works Across the Country',
     subtitle:
-      'Portugal has three distinct climate zones. EPDM was engineered to outperform in every one of them.',
+      'Portugal has three distinct climates. EPDM dominates all of them.',
     zones: [
       {
-        zone: 'North and Interior — Oceanic Temperate Climate',
+        zone: 'North and Interior',
         description:
-          'Cold, wet winters and hot summers create repeated freeze-thaw and thermal cycling. EPDM withstands these cycles without warping or cracking, maintaining a perfect seal for decades.',
+          'Rain, cold, intense heat. EPDM handles extreme thermal cycling without warping or cracking. Decades without issues.',
       },
       {
-        zone: 'Lisbon, Centre and Alentejo — Mediterranean Climate',
+        zone: 'Lisbon, Centre and Alentejo',
         description:
-          'Dry, hot summers with high UV index. EPDM\'s inherent UV resistance eliminates the need for periodic coatings, significantly reducing long-term maintenance costs.',
+          'Harsh sun and high UV. EPDM doesn\'t need coatings — it resists by nature. Less maintenance, lower costs.',
       },
       {
-        zone: 'Algarve and Atlantic Coast — Coastal Climate',
+        zone: 'Algarve and Coast',
         description:
-          'Marine salt air and high humidity destroy bitumen within years. EPDM is inert to chlorides and does not oxidise, delivering lasting protection in coastal environments.',
+          'Salt, humidity, sea air. Where bitumen rots in years, EPDM stays intact. Doesn\'t oxidise, doesn\'t degrade.',
       },
     ],
   },
 
   socialProof: {
-    title: 'What Our Clients Say',
+    title: 'Our Clients Know',
     testimonials: [
       {
-        text: 'We installed Membriko EPDM on a 1,200 m² flat roof six years ago. Not a single leak since. The work was fast, clean and caused no disruption to our tenants.',
+        text: '1,200 m² flat roof, six years ago. Zero leaks. Fast, clean, no hassle.',
         author: 'António Ferreira',
         role: 'Property Manager, Lisbon',
       },
       {
-        text: 'We chose Membriko to waterproof our natural swimming pond. The result exceeded all expectations — the membrane adapts perfectly to the irregular shape and water quality has improved.',
+        text: 'They waterproofed our natural swimming pond. The membrane adapted perfectly to the irregular shape. Flawless result.',
         author: 'Maria João Costa',
         role: 'Farm Owner, Alentejo',
       },
       {
-        text: 'As a contractor I work with many membranes. Membriko\'s EPDM is by far the easiest to install and the most reliable long-term. My clients never regret the choice.',
+        text: 'I\'ve worked with membranes for 20 years. The EPDM Membriko applies is the most reliable. Full stop.',
         author: 'Carlos Silva',
-        role: 'Building Contractor, Porto',
+        role: 'Contractor, Porto',
       },
     ],
-    projectCount: '500+ projects completed across Portugal',
+    projectCount: '500+ projects across Portugal',
   },
 
   cta: {
-    title: 'Ready to Waterproof with Quality?',
+    title: 'Got a Project? Talk to Us.',
     subtitle:
-      'Request a free, no-obligation quote. Our team assesses your project and recommends the ideal EPDM solution.',
-    buttonText: 'Request a Free Quote',
+      'Free quote, no strings attached. We assess your project and recommend the best solution.',
+    buttonText: 'Get a Quote',
   },
 }
 

@@ -21,9 +21,9 @@ export function ComparisonSection({
     <Section bg="elevated">
       <Container>
         <div className="text-center mb-10">
-          <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">{title}</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-text mb-4">{title}</h2>
           {subtitle && (
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
           )}
         </div>
 

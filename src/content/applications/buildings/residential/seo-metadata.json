@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Edifícios Residenciais com Membrana EPDM | Membriko",
+    "description": "Impermeabilização residencial EPDM para moradias, apartamentos e vivendas. Vida útil 50+ anos, garantia 20 anos, IVA 6% em reabilitação. Membriko, Pombal — especialistas em habitação.",
+    "keywords": [
+      "impermeabilização residencial EPDM",
+      "casa habitação EPDM",
+      "impermeabilização moradia EPDM",
+      "impermeabilização terraço habitação",
+      "membrana EPDM edifício residencial",
+      "impermeabilização cobertura habitação",
+      "EPDM moradia Portugal",
+      "impermeabilização varanda EPDM",
+      "impermeabilização apartamento EPDM",
+      "reabilitação impermeabilização residencial",
+      "impermeabilização telhado moradia",
+      "membrana EPDM habitação",
+      "impermeabilização edifício habitacional",
+      "Membriko impermeabilização residencial",
+      "IVA 6% impermeabilização habitação"
+    ],
+    "ogTitle": "EPDM para Habitação — 50 Anos de Protecção, 20 Anos de Garantia | Membriko",
+    "ogDescription": "A membrana EPDM da Membriko protege a sua casa por mais de 50 anos sem manutenção. Moradias, apartamentos, vivendas — cobertura, terraço, fundações. IVA a 6% em reabilitação. Garantia 20 anos.",
+    "canonicalPath": "/aplicacoes/edificios/residencial",
+    "hreflang": {
+      "pt": "/aplicacoes/edificios/residencial",
+      "en": "/en/applications/buildings/residential"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Edifícios Residenciais com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Residential Building Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM waterproofing for residential buildings: houses, apartments, villas and townhouses. 50+ year service life, 20-year warranty. Roof, terrace, balcony and foundation systems. Membriko, Portugal.",
+    "keywords": [
+      "residential EPDM waterproofing Portugal",
+      "house waterproofing EPDM",
+      "residential roof waterproofing EPDM",
+      "EPDM membrane residential building",
+      "apartment roof waterproofing Portugal",
+      "villa waterproofing EPDM",
+      "terrace waterproofing EPDM",
+      "balcony waterproofing membrane",
+      "home waterproofing Portugal",
+      "EPDM residential renovation",
+      "foundation waterproofing EPDM",
+      "Membriko residential waterproofing",
+      "EPDM house Portugal",
+      "residential building membrane",
+      "50 year waterproofing guarantee"
+    ],
+    "ogTitle": "EPDM Waterproofing for Residential Buildings — 50 Years, 20-Year Warranty | Membriko",
+    "ogDescription": "Membriko's EPDM membrane protects your home for 50+ years with no periodic maintenance. Houses, apartments, villas — roof, terrace, balcony, foundations. Portuguese EPDM specialist based in Pombal.",
+    "canonicalPath": "/en/applications/buildings/residential",
+    "hreflang": {
+      "pt": "/aplicacoes/edificios/residencial",
+      "en": "/en/applications/buildings/residential"
+    },
+    "structuredData": {
+      "serviceType": "Residential Building Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

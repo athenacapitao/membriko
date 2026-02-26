@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Gestão de Águas Pluviais com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para bacias de retenção, valas de biofiltração, bacias de detenção e zonas húmidas construídas. Gestão pluvial EPDM com vida útil 50+ anos e garantia 20 anos. Membriko, Pombal.",
+    "keywords": [
+      "gestão pluvial EPDM",
+      "bacia retenção impermeabilização",
+      "bacia detenção EPDM",
+      "membrana impermeabilização pluvial",
+      "impermeabilização bacia pluvial",
+      "gestão águas pluviais EPDM Portugal",
+      "vala biofiltração membrana",
+      "zona húmida construída EPDM",
+      "SuDS membrana EPDM",
+      "retenção pluvial membrana geossintética",
+      "lagoa retenção EPDM",
+      "impermeabilização lagoa pluvial",
+      "geomembrana EPDM bacias",
+      "Membriko gestão pluvial",
+      "bacia retenção estrada Portugal"
+    ],
+    "ogTitle": "Gestão de Águas Pluviais com EPDM — Bacias, Valas e Zonas Húmidas | Membriko",
+    "ogDescription": "A membrana EPDM da Membriko impermeabiliza bacias de retenção, bacias de detenção, valas de biofiltração e zonas húmidas construídas. Resistência a UV, ciclos de seca-enchimento e assentamentos. Garantia 20 anos.",
+    "canonicalPath": "/aplicacoes/ambiental/gestao-aguas-pluviais",
+    "hreflang": {
+      "pt": "/aplicacoes/ambiental/gestao-aguas-pluviais",
+      "en": "/en/applications/environmental/stormwater-management"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Sistemas de Gestão de Águas Pluviais com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Stormwater Management with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for retention ponds, bioswales, detention basins and constructed wetlands. Stormwater EPDM lining with 50+ year service life and 20-year warranty. Membriko, Portugal.",
+    "keywords": [
+      "stormwater management EPDM",
+      "retention pond waterproofing EPDM",
+      "detention basin membrane",
+      "EPDM geomembrane stormwater",
+      "bioswale EPDM liner",
+      "constructed wetland membrane",
+      "SuDS EPDM membrane Portugal",
+      "stormwater pond lining",
+      "EPDM retention pond Portugal",
+      "sustainable urban drainage EPDM",
+      "geomembrane retention basin",
+      "stormwater liner EPDM",
+      "Membriko stormwater",
+      "EPDM vs HDPE pond liner",
+      "stormwater attenuation membrane"
+    ],
+    "ogTitle": "Stormwater Management with EPDM — Retention Ponds, Bioswales, Wetlands | Membriko",
+    "ogDescription": "Membriko's EPDM membrane lines retention ponds, detention basins, bioswales and constructed wetlands. UV resistant, dry-wet cycle resistant, 400% elongation for earthwork settlement. 20-year warranty.",
+    "canonicalPath": "/en/applications/environmental/stormwater-management",
+    "hreflang": {
+      "pt": "/aplicacoes/ambiental/gestao-aguas-pluviais",
+      "en": "/en/applications/environmental/stormwater-management"
+    },
+    "structuredData": {
+      "serviceType": "Stormwater Management System Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

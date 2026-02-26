@@ -27,10 +27,10 @@ export function AboutPageContent({ locale }: AboutPageContentProps): React.JSX.E
       <Section bg="dark">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-text mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-text mb-4 sm:mb-6">
               {content.mission.title}
             </h2>
-            <p className="text-lg text-text-muted leading-relaxed mb-6">
+            <p className="text-base sm:text-lg text-text-muted leading-relaxed mb-4 sm:mb-6">
               {content.mission.description}
             </p>
             <p className="text-base text-text-muted leading-relaxed italic border-l-4 border-accent pl-4 text-left">
@@ -49,7 +49,7 @@ export function AboutPageContent({ locale }: AboutPageContentProps): React.JSX.E
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {content.values.items.map((value, index) => (
               <Card key={index}>
                 <CardBody>
@@ -72,12 +72,12 @@ export function AboutPageContent({ locale }: AboutPageContentProps): React.JSX.E
             <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.services.title}
             </h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
               {content.services.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             {content.services.items.map((service, index) => (
               <Card key={index}>
                 <CardBody>
@@ -119,12 +119,12 @@ export function AboutPageContent({ locale }: AboutPageContentProps): React.JSX.E
             <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {content.certifications.title}
             </h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
               {content.certifications.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {content.certifications.items.map((cert, index) => (
               <Card key={index}>
                 <CardBody>
@@ -149,9 +149,9 @@ export function AboutPageContent({ locale }: AboutPageContentProps): React.JSX.E
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-4xl mx-auto">
             {content.whyChoose.points.map((point, index) => (
-              <div key={index} className="flex items-start gap-4 p-6 bg-bg-elevated rounded-xl border border-white/10">
+              <div key={index} className="flex items-start gap-3 sm:gap-4 p-4 sm:p-6 bg-bg-elevated rounded-xl border border-white/10">
                 <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center">
                   <Icon name={point.icon} size={20} className="text-primary" />
                 </div>

@@ -72,12 +72,12 @@ export function ApplicationsHubContent({ locale }: ApplicationsHubContentProps):
             <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">
               {text.sectionTitle}
             </h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
               {text.sectionSubtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {categories.map((category) => (
               <CategoryCard
                 key={category.id}

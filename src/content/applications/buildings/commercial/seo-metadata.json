@@ -1,0 +1,90 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Edifícios Comerciais com Membrana EPDM | Membriko",
+    "description": "Especialistas em impermeabilização comercial EPDM para escritórios, centros comerciais, hotéis e hospitais. Instalação sem encerramento. Garantia de 20 anos. Membriko — Pombal, Portugal.",
+    "keywords": [
+      "impermeabilização comercial EPDM",
+      "impermeabilização edifícios comerciais Portugal",
+      "membrana EPDM edifício comercial",
+      "cobertura centro comercial impermeabilização",
+      "impermeabilização escritórios EPDM",
+      "impermeabilização hotel EPDM Portugal",
+      "membrana EPDM cobertura comercial",
+      "impermeabilização hospitais EPDM",
+      "cobertura plana comercial EPDM",
+      "Membriko edifícios comerciais",
+      "impermeabilização EPDM sem encerramento",
+      "reabilitação cobertura comercial EPDM",
+      "EPDM certificação energética RECS",
+      "BREEAM EPDM Portugal"
+    ],
+    "ogTitle": "Impermeabilização de Edifícios Comerciais com EPDM | Membriko Portugal",
+    "ogDescription": "Coberturas de escritórios, centros comerciais, hotéis e hospitais impermeabilizadas com membrana EPDM. Vida útil 50+ anos. Instalação sem interrupção da actividade. Membriko, Pombal.",
+    "canonical": "https://membriko.pt/aplicacoes/edificios/comercial",
+    "hreflang": {
+      "pt": "https://membriko.pt/aplicacoes/edificios/comercial",
+      "en": "https://membriko.pt/en/applications/buildings/commercial"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Impermeabilização de Edifícios Comerciais com Membrana EPDM",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Membriko",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pombal",
+          "addressCountry": "PT"
+        }
+      },
+      "areaServed": "Portugal",
+      "description": "Impermeabilização especializada de coberturas de edifícios comerciais com membrana EPDM. Escritórios, centros comerciais, hotéis e hospitais.",
+      "serviceType": "Impermeabilização comercial EPDM"
+    }
+  },
+  "en": {
+    "title": "Commercial Building Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM commercial waterproofing specialists for offices, shopping centres, hotels and hospitals in Portugal. Installation without business closure. 20-year warranty. Membriko — Pombal.",
+    "keywords": [
+      "commercial building waterproofing EPDM",
+      "EPDM commercial roof Portugal",
+      "shopping centre roof waterproofing",
+      "office building EPDM membrane",
+      "commercial EPDM waterproofing specialist",
+      "hotel roof waterproofing Portugal",
+      "hospital roof EPDM membrane",
+      "EPDM flat roof commercial building",
+      "Membriko commercial buildings",
+      "EPDM installation occupied building",
+      "commercial roof refurbishment EPDM Portugal",
+      "BREEAM EPDM certification Portugal",
+      "LEED roofing membrane Portugal",
+      "energy certificate EPDM roof Portugal"
+    ],
+    "ogTitle": "Commercial Building Waterproofing with EPDM | Membriko Portugal",
+    "ogDescription": "Office blocks, shopping centres, hotels and hospitals waterproofed with EPDM membrane. 50+ year service life. Installation without business disruption. Membriko, Pombal, Portugal.",
+    "canonical": "https://membriko.pt/en/applications/buildings/commercial",
+    "hreflang": {
+      "pt": "https://membriko.pt/aplicacoes/edificios/comercial",
+      "en": "https://membriko.pt/en/applications/buildings/commercial"
+    },
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Commercial Building Waterproofing with EPDM Membrane",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Membriko",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pombal",
+          "addressCountry": "PT"
+        }
+      },
+      "areaServed": "Portugal",
+      "description": "Specialist EPDM membrane waterproofing for commercial building roofs including offices, shopping centres, hotels and hospitals.",
+      "serviceType": "Commercial EPDM waterproofing"
+    }
+  }
+}

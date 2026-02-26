@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Piscinas com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para piscinas: resistente a cloro, UV e pressão hidrostática. Vida útil 50+ anos, garantia 20 anos. Piscinas residenciais, comerciais e naturais. Membriko, Pombal.",
+    "keywords": [
+      "piscina EPDM",
+      "impermeabilização piscina",
+      "revestimento piscina EPDM",
+      "membrana piscina Portugal",
+      "impermeabilizar piscina EPDM",
+      "liner piscina EPDM",
+      "piscina natural EPDM",
+      "biopiscina membrana",
+      "impermeabilização piscina comercial",
+      "revestimento piscina resistente cloro",
+      "membrana impermeável piscina",
+      "piscina EPDM Algarve",
+      "Membriko piscinas",
+      "substituição liner piscina",
+      "renovação piscina membrana"
+    ],
+    "ogTitle": "Piscinas com Membrana EPDM — 50 Anos Sem Substituição | Membriko",
+    "ogDescription": "Chega de substituir liners a cada 10 anos. A membrana EPDM da Membriko dura 50+ anos, resiste ao cloro, UV e pressão hidrostática. Garantia 20 anos. Piscinas residenciais, hoteleiras e naturais em Portugal.",
+    "canonicalPath": "/aplicacoes/agua/piscinas",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/piscinas",
+      "en": "/en/applications/water/swimming-pools"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Piscinas com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Swimming Pool Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane pool lining: chlorine, UV and hydrostatic pressure resistant. 50+ year service life, 20-year warranty. Residential, commercial and natural pools. Membriko, Portugal.",
+    "keywords": [
+      "EPDM pool lining",
+      "swimming pool waterproofing EPDM",
+      "pool membrane Portugal",
+      "EPDM swimming pool liner",
+      "natural pool EPDM liner",
+      "biopool membrane",
+      "commercial pool waterproofing",
+      "chlorine resistant pool liner",
+      "EPDM pool Algarve",
+      "Membriko swimming pools",
+      "pool liner replacement EPDM",
+      "pool renovation membrane",
+      "rubber pool liner",
+      "EPDM vs PVC pool liner",
+      "50 year pool liner"
+    ],
+    "ogTitle": "EPDM Swimming Pool Lining — 50 Years Without Replacement | Membriko",
+    "ogDescription": "End the 10-year PVC liner replacement cycle. Membriko's EPDM pool membrane lasts 50+ years, resists chlorine, UV and hydrostatic pressure. 20-year warranty. Residential, hotel and natural pools in Portugal.",
+    "canonicalPath": "/en/applications/water/swimming-pools",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/piscinas",
+      "en": "/en/applications/water/swimming-pools"
+    },
+    "structuredData": {
+      "serviceType": "Swimming Pool Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "pt": {
+    "title": "Renovação de Coberturas com EPDM — Sem Demolição | Membriko",
+    "description": "Renove a sua cobertura envelhecida com membrana EPDM sobre o sistema existente. Poupança de 30-50% vs demolição, 20 anos de garantia. Membriko, especialistas em Portugal.",
+    "keywords": [
+      "renovação cobertura EPDM",
+      "reabilitação cobertura plana",
+      "impermeabilização sobre betume existente",
+      "renovação telhado sem demolição",
+      "sobre-instalação membrana EPDM",
+      "reparação cobertura plana Portugal",
+      "EPDM sobre cobertura antiga",
+      "reabilitação impermeabilização Portugal",
+      "Construir Portugal cobertura",
+      "renovação cobertura edifício antigo",
+      "Membriko renovação coberturas",
+      "impermeabilização reabilitação urbana"
+    ],
+    "ogTitle": "Renovação de Coberturas com EPDM: Sem Demolição, 20 Anos de Garantia | Membriko",
+    "ogDescription": "A Membriko renova coberturas planas envelhecidas com EPDM sobre o sistema existente. Diagnóstico gratuito, poupança de 30-50% vs demolição total, garantia de 20 anos. Baseados em Pombal, servimos todo Portugal.",
+    "canonicalPath": "/aplicacoes/coberturas/renovacao-de-coberturas",
+    "hreflang": {
+      "pt": "/aplicacoes/coberturas/renovacao-de-coberturas",
+      "en": "/en/applications/roofing/roof-renovation"
+    },
+    "structuredData": {
+      "serviceType": "Renovação de coberturas com membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Portugal"
+    }
+  },
+  "en": {
+    "title": "Roof Renovation with EPDM — No Demolition Required | Membriko Portugal",
+    "description": "Renovate your ageing flat roof with EPDM membrane over the existing system. 30-50% saving vs demolition, 20-year warranty. Membriko — Portugal's EPDM renovation specialists.",
+    "keywords": [
+      "roof renovation EPDM Portugal",
+      "flat roof rehabilitation EPDM",
+      "EPDM over existing bitumen roof",
+      "roof renovation no demolition",
+      "over-roofing EPDM membrane",
+      "flat roof repair Portugal",
+      "EPDM retrofit existing roof",
+      "roof waterproofing renovation",
+      "Portugal building renovation EPDM",
+      "retrofit roof waterproofing",
+      "Membriko roof renovation",
+      "EPDM overlay specialist Portugal"
+    ],
+    "ogTitle": "Roof Renovation with EPDM: No Demolition, 20-Year Warranty | Membriko Portugal",
+    "ogDescription": "Membriko renovates ageing flat roofs with EPDM installed over the existing system. Free diagnosis, 30-50% saving vs full demolition, 20-year warranty. Based in Pombal, serving all Portugal.",
+    "canonicalPath": "/en/applications/roofing/roof-renovation",
+    "hreflang": {
+      "pt": "/aplicacoes/coberturas/renovacao-de-coberturas",
+      "en": "/en/applications/roofing/roof-renovation"
+    },
+    "structuredData": {
+      "serviceType": "Roof renovation with EPDM membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Portugal"
+    }
+  }
+}

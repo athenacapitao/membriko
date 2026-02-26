@@ -98,7 +98,7 @@ export function CategoryHubContent({
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {appIds.map((appId) => {
               const appData = getApplicationById(appId)
               const appPath = getApplicationPath(appId, locale)
@@ -112,7 +112,7 @@ export function CategoryHubContent({
                   <Link
                     key={appId}
                     href={appPath}
-                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-6"
+                    className="group flex flex-col bg-bg-elevated rounded-xl border border-white/10 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 p-4 sm:p-6"
                   >
                     <h3 className="font-semibold text-text text-lg mb-2 group-hover:text-accent transition-colors duration-200">
                       {appContent.hero.headline}

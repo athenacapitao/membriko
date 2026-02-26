@@ -1,0 +1,72 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Estufas com Membrana EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para estufas: impermeabilização de pavimentos, caleiros, canais de recolha e cisternas. Resistente a agroquímicos, raízes e UV. Garantia 20 anos. Membriko, Pombal.",
+    "keywords": [
+      "estufa EPDM impermeabilização",
+      "impermeabilização estufa agrícola",
+      "membrana EPDM estufa",
+      "pavimento estufa impermeável",
+      "caleiros estufa EPDM",
+      "cisterna EPDM agricultura",
+      "recolha água estufa EPDM",
+      "estufa horticultura membrana",
+      "impermeabilização estufa Algarve",
+      "impermeabilização estufa Oeste Portugal",
+      "zona vulnerável nitratos estufa",
+      "estufa EPDM conformidade ambiental",
+      "membrana estufa agricultura biológica",
+      "estufa túnel impermeabilização",
+      "estufa multispan membrana",
+      "Membriko estufas"
+    ],
+    "ogTitle": "Estufas com Membrana EPDM — Pavimentos, Caleiros e Cisternas | Membriko",
+    "ogDescription": "Impermeabilização profissional de estufas agrícolas com membrana EPDM: pavimentos de contenção, caleiros, canais de drenagem e cisternas. Resistente a agroquímicos, raízes e UV. Compatível com agricultura biológica e Zonas Vulneráveis aos Nitratos. Garantia 20 anos. Membriko, Pombal.",
+    "canonicalPath": "/aplicacoes/agricola/estufas",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/estufas",
+      "en": "/en/applications/agricultural/greenhouses"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Estufas Agrícolas com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Greenhouse Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for greenhouse waterproofing: floors, gutters, collection channels and cisterns. Chemical resistant, root proof, UV stable. 50+ year service life, 20-year warranty. Membriko, Portugal.",
+    "keywords": [
+      "greenhouse waterproofing EPDM",
+      "EPDM greenhouse membrane",
+      "greenhouse floor waterproofing",
+      "greenhouse gutter lining EPDM",
+      "agricultural cistern EPDM",
+      "greenhouse water collection membrane",
+      "horticultural waterproofing Portugal",
+      "greenhouse waterproofing Algarve",
+      "greenhouse waterproofing Oeste Portugal",
+      "nitrate vulnerable zone greenhouse",
+      "organic greenhouse membrane",
+      "tunnel greenhouse waterproofing",
+      "multi-span greenhouse membrane",
+      "EPDM agricultural liner",
+      "Membriko greenhouses",
+      "agrochemical resistant membrane"
+    ],
+    "ogTitle": "Greenhouse Waterproofing with EPDM Membrane — Floors, Gutters and Cisterns | Membriko",
+    "ogDescription": "Professional EPDM membrane waterproofing for agricultural greenhouses: containment floors, eaves gutters, drainage channels and irrigation cisterns. Agrochemical resistant, root proof, UV stable. Compatible with organic certification and Nitrate Vulnerable Zone compliance. 20-year warranty. Membriko, Pombal, Portugal.",
+    "canonicalPath": "/en/applications/agricultural/greenhouses",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/estufas",
+      "en": "/en/applications/agricultural/greenhouses"
+    },
+    "structuredData": {
+      "serviceType": "Greenhouse Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

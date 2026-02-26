@@ -18,8 +18,8 @@ export function ProblemSolution({ problem, solution }: ProblemSolutionProps): Re
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Problem column */}
-          <div className="bg-red-950/30 border border-red-500/20 rounded-xl p-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-red-400 mb-3">{problem.title}</h2>
+          <div className="bg-red-950/30 border border-red-500/20 rounded-xl p-5 sm:p-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-400 mb-3">{problem.title}</h2>
             <p className="text-text-muted leading-relaxed mb-6">{problem.description}</p>
 
             <ul className="space-y-3">
@@ -35,8 +35,8 @@ export function ProblemSolution({ problem, solution }: ProblemSolutionProps): Re
           </div>
 
           {/* Solution column */}
-          <div className="bg-green-950/30 border border-green-500/20 rounded-xl p-8">
-            <h2 className="text-2xl lg:text-3xl font-bold text-green-400 mb-3">{solution.title}</h2>
+          <div className="bg-green-950/30 border border-green-500/20 rounded-xl p-5 sm:p-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-green-400 mb-3">{solution.title}</h2>
             <p className="text-text-muted leading-relaxed mb-6">{solution.description}</p>
 
             <ul className="space-y-3">

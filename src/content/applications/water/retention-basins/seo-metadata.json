@@ -1,0 +1,72 @@
+{
+  "pt": {
+    "title": "Bacias de Retenção com Membrana EPDM | Gestão Águas Pluviais | Membriko Portugal",
+    "description": "Impermeabilização de bacias de retenção e detenção com membrana EPDM. Resistente a ciclos de secagem, raízes e UV. Vida útil 50+ anos, garantia 20 anos. Conformidade APA e municípios. Membriko, Pombal.",
+    "keywords": [
+      "bacia retenção EPDM",
+      "bacia detenção EPDM",
+      "gestão águas pluviais EPDM",
+      "impermeabilização bacia retenção",
+      "membrana EPDM bacia",
+      "gestão águas pluviais Portugal",
+      "bacia compensação EPDM",
+      "geomembrana bacia retenção",
+      "SUDS Portugal EPDM",
+      "membrana impermeável bacia pluvial",
+      "bacia retenção argila alternativa",
+      "impermeabilização bacia municipal",
+      "Membriko bacias retenção",
+      "membrana geotécnica EPDM",
+      "bacia infiltração EPDM",
+      "domínio hídrico APA membrana"
+    ],
+    "ogTitle": "Bacias de Retenção com EPDM — Sem Fissuras, 50 Anos de Estanquidade | Membriko",
+    "ogDescription": "A argila fissurou nas secas de verão? A Membriko impermeabiliza bacias de retenção, detenção e compensação com membrana EPDM: resistente a ciclos de secagem, raízes e UV. Vida útil 50+ anos. Documentação para APA e câmaras municipais.",
+    "canonicalPath": "/aplicacoes/agua/bacias-retencao",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/bacias-retencao",
+      "en": "/en/applications/water/retention-basins"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Bacias de Retenção com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Retention Basin EPDM Lining | Stormwater Management | Membriko Portugal",
+    "description": "EPDM geomembrane lining for stormwater retention and detention basins. Desiccation, root and UV resistant. 50+ year service life, 20-year warranty. APA and municipal authority compliance. Membriko, Portugal.",
+    "keywords": [
+      "retention basin EPDM",
+      "EPDM stormwater basin lining",
+      "stormwater management EPDM",
+      "detention basin liner",
+      "EPDM geomembrane retention pond",
+      "SuDS pond liner Portugal",
+      "stormwater pond waterproofing",
+      "EPDM vs HDPE basin liner",
+      "clay liner alternative retention basin",
+      "compensatory basin lining",
+      "Membriko retention basins",
+      "EN 13361 EPDM geomembrane",
+      "infiltration basin liner",
+      "municipal stormwater EPDM",
+      "retention pond Portugal EPDM",
+      "50 year basin liner"
+    ],
+    "ogTitle": "EPDM Retention Basin Lining — 50 Years Without Desiccation Failure | Membriko",
+    "ogDescription": "Clay liner cracking during Portuguese summers? Membriko lines stormwater retention, detention and compensatory basins with EPDM geomembrane: desiccation-proof, root-resistant, UV-stable. 50+ year service life. Full APA licensing documentation package.",
+    "canonicalPath": "/en/applications/water/retention-basins",
+    "hreflang": {
+      "pt": "/aplicacoes/agua/bacias-retencao",
+      "en": "/en/applications/water/retention-basins"
+    },
+    "structuredData": {
+      "serviceType": "Retention Basin Waterproofing with EPDM Geomembrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

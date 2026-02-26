@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Reservatórios Agrícolas com EPDM | Membriko Portugal",
+    "description": "Membrana EPDM para charcas e reservatórios de rega agrícola. Zero perdas por infiltração. Resistente a UV, fertilizantes e agroquímicos. Vida útil 50+ anos, garantia 15 anos. Membriko, Pombal.",
+    "keywords": [
+      "reservatório agrícola EPDM",
+      "charca EPDM agricultura",
+      "impermeabilização charca rega",
+      "membrana EPDM reservatório rega",
+      "impermeabilização reservatório agrícola Portugal",
+      "charca EPDM Alentejo",
+      "charca EPDM Algarve",
+      "reservatório rega EPDM",
+      "açude EPDM impermeabilização",
+      "lagoa retenção agrícola EPDM",
+      "tanque rega EPDM",
+      "membrana charca rega Portugal",
+      "Membriko reservatórios agrícolas",
+      "PDR2030 impermeabilização reservatório",
+      "geomembrana EPDM agricultura"
+    ],
+    "ogTitle": "Charcas e Reservatórios Agrícolas com EPDM — Zero Perdas por Infiltração | Membriko",
+    "ogDescription": "Cada litro de água armazenada conta no Alentejo e no Algarve. A membrana EPDM da Membriko elimina as infiltrações em charcas e reservatórios de rega, garantindo zero perdas durante 50+ anos. Elegível para PDR2030. Garantia 15 anos.",
+    "canonicalPath": "/aplicacoes/agricola/reservatorios-agricolas",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/reservatorios-agricolas",
+      "en": "/en/applications/agricultural/farm-reservoirs"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Reservatórios e Charcas Agrícolas com Membrana EPDM",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  },
+  "en": {
+    "title": "Agricultural Reservoir Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for farm ponds and irrigation reservoirs. Zero infiltration losses. UV, fertiliser and agrochemical resistant. 50+ year service life, 15-year warranty. Membriko, Portugal.",
+    "keywords": [
+      "agricultural reservoir EPDM",
+      "farm pond EPDM waterproofing",
+      "irrigation reservoir membrane Portugal",
+      "EPDM pond lining agriculture",
+      "farm reservoir waterproofing EPDM",
+      "EPDM pond liner Alentejo",
+      "EPDM farm pond Portugal",
+      "agricultural water storage EPDM",
+      "irrigation pond liner",
+      "EPDM lagoon lining",
+      "agricultural retention lagoon EPDM",
+      "geomembrane EPDM farm",
+      "Membriko agricultural reservoirs",
+      "PDR2030 reservoir waterproofing",
+      "EPDM vs HDPE farm reservoir"
+    ],
+    "ogTitle": "Farm Ponds and Agricultural Reservoirs with EPDM — Zero Infiltration Losses | Membriko",
+    "ogDescription": "Every litre of stored water matters in southern Portugal. Membriko's EPDM membrane eliminates infiltration losses in farm ponds and irrigation reservoirs, guaranteeing zero losses for 50+ years. PDR2030 eligible. 15-year warranty.",
+    "canonicalPath": "/en/applications/agricultural/farm-reservoirs",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/reservatorios-agricolas",
+      "en": "/en/applications/agricultural/farm-reservoirs"
+    },
+    "structuredData": {
+      "serviceType": "Agricultural Reservoir and Farm Pond Waterproofing with EPDM Membrane",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Leiria, Portugal"
+    }
+  }
+}

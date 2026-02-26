@@ -1,0 +1,64 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Estacionamentos e Parques com EPDM | Membriko Portugal",
+    "description": "Impermeabilização de estacionamentos subterrâneos, elevados e em cobertura com membrana EPDM. Resistência a óleos, combustíveis e sais. Conformidade DL 220/2008. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização estacionamento EPDM",
+      "parque subterrâneo impermeabilização",
+      "membrana EPDM estacionamento",
+      "impermeabilização parque de estacionamento Portugal",
+      "EPDM parque subterrâneo",
+      "impermeabilização laje estacionamento",
+      "parque elevado impermeabilização",
+      "membrana impermeabilizante estacionamento",
+      "impermeabilização garagem subterrânea",
+      "estacionamento cobertura EPDM",
+      "Membriko estacionamentos",
+      "impermeabilização civil EPDM Portugal"
+    ],
+    "ogTitle": "Impermeabilização de Estacionamentos com EPDM — 50+ Anos de Vida Útil | Membriko",
+    "ogDescription": "Sistemas EPDM para parques subterrâneos, elevados e em cobertura. Resistência comprovada a hidrocarbonetos, sais descongelantes e cargas de tráfego. Membriko, especialistas EPDM em Portugal.",
+    "canonicalPath": "/aplicacoes/civil/estacionamentos",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/estacionamentos",
+      "en": "/applications/civil/parking-structures"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Estacionamentos",
+      "provider": "Membriko",
+      "areaServed": "Portugal",
+      "serviceOutput": "Membrana EPDM para estacionamentos subterrâneos, elevados e em cobertura"
+    }
+  },
+  "en": {
+    "title": "Car Park Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM waterproofing for underground, multi-storey and rooftop car parks. Resistance to oils, fuels and de-icing salts. DL 220/2008 compliant. Membriko, Portugal.",
+    "keywords": [
+      "car park waterproofing EPDM",
+      "underground car park waterproofing",
+      "EPDM membrane car park",
+      "parking structure waterproofing Portugal",
+      "EPDM underground parking",
+      "car park deck waterproofing",
+      "multi-storey car park waterproofing",
+      "parking deck membrane",
+      "basement car park waterproofing",
+      "rooftop car park EPDM",
+      "Membriko car park",
+      "civil waterproofing EPDM Portugal"
+    ],
+    "ogTitle": "Car Park Waterproofing with EPDM — 50+ Year Service Life | Membriko",
+    "ogDescription": "EPDM systems for underground, multi-storey and rooftop car parks. Proven resistance to hydrocarbons, de-icing salts and traffic loads. Membriko, EPDM specialists in Portugal.",
+    "canonicalPath": "/applications/civil/parking-structures",
+    "hreflang": {
+      "pt": "/aplicacoes/civil/estacionamentos",
+      "en": "/applications/civil/parking-structures"
+    },
+    "structuredData": {
+      "serviceType": "Car Park Waterproofing",
+      "provider": "Membriko",
+      "areaServed": "Portugal",
+      "serviceOutput": "EPDM membrane for underground, multi-storey and rooftop car parks"
+    }
+  }
+}

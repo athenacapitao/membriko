@@ -41,7 +41,7 @@ export function FaqPageContent({ locale }: FaqPageContentProps): React.JSX.Eleme
                 role="tab"
                 aria-selected={activeCategory === category.id}
                 onClick={() => setActiveCategory(category.id)}
-                className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 ${
+                className={`px-4 py-2.5 sm:px-5 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 min-h-[44px] ${
                   activeCategory === category.id
                     ? 'bg-accent text-black'
                     : 'bg-white/10 border border-white/10 text-text-muted hover:border-accent/30 hover:text-white'

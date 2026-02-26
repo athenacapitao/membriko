@@ -1,0 +1,70 @@
+{
+  "pt": {
+    "title": "Impermeabilização de Instalações Pecuárias com EPDM | Membriko",
+    "description": "Membrana EPDM para lagoas de efluentes pecuários, bebedouros, estrumeiras e digestores de biogás. Resistência a amónia e chorume. Conformidade com DL 81/2013. Membriko, Pombal.",
+    "keywords": [
+      "impermeabilização pecuária EPDM",
+      "lagoa efluentes EPDM",
+      "lagoa chorume impermeabilização",
+      "impermeabilização lagoa pecuária Portugal",
+      "membrana EPDM lagoa chorume",
+      "impermeabilização instalações pecuárias",
+      "EPDM resistência amónia",
+      "lagoa efluentes suinicultura",
+      "impermeabilização estrumeira",
+      "bebedouros gado EPDM",
+      "digestor biogás membrana EPDM",
+      "conformidade DL 81/2013 lagoa",
+      "PGEP impermeabilização",
+      "Membriko pecuária",
+      "EPDM chorume suinicultura Portugal"
+    ],
+    "ogTitle": "Impermeabilização de Instalações Pecuárias com EPDM | Membriko Portugal",
+    "ogDescription": "A Membriko impermeabiliza lagoas de chorume, estrumeiras, bebedouros e digestores de biogás com membrana EPDM de alta resistência química. Conformidade total com a regulamentação pecuária portuguesa.",
+    "canonicalPath": "/aplicacoes/agricola/instalacoes-pecuarias",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/instalacoes-pecuarias",
+      "en": "/applications/agricultural/livestock-facilities"
+    },
+    "structuredData": {
+      "serviceType": "Impermeabilização de Instalações Pecuárias",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Portugal"
+    }
+  },
+  "en": {
+    "title": "Livestock Facility Waterproofing with EPDM Membrane | Membriko Portugal",
+    "description": "EPDM membrane for livestock effluent lagoons, drinking troughs, manure stores and biogas digesters. Ammonia and slurry resistance. DL 81/2013 compliance. Membriko, Pombal.",
+    "keywords": [
+      "livestock facility waterproofing EPDM",
+      "slurry lagoon lining EPDM",
+      "effluent lagoon membrane Portugal",
+      "EPDM ammonia resistance livestock",
+      "pig slurry lagoon waterproofing",
+      "cattle slurry containment EPDM",
+      "manure storage waterproofing",
+      "livestock drinking trough EPDM",
+      "biogas digester membrane",
+      "Nitrates Directive lagoon compliance",
+      "EPDM agricultural effluent containment",
+      "Membriko livestock",
+      "farm effluent waterproofing Portugal",
+      "slurry store membrane Portugal",
+      "EPDM farm waterproofing specialist"
+    ],
+    "ogTitle": "Livestock Facility Waterproofing with EPDM | Membriko Portugal",
+    "ogDescription": "Membriko waterproofs slurry lagoons, manure stores, drinking troughs and biogas digesters with high-chemical-resistance EPDM membrane. Full compliance with Portuguese livestock regulations.",
+    "canonicalPath": "/applications/agricultural/livestock-facilities",
+    "hreflang": {
+      "pt": "/aplicacoes/agricola/instalacoes-pecuarias",
+      "en": "/applications/agricultural/livestock-facilities"
+    },
+    "structuredData": {
+      "serviceType": "Livestock Facility Waterproofing",
+      "areaServed": "Portugal",
+      "provider": "Membriko",
+      "providerLocation": "Pombal, Portugal"
+    }
+  }
+}
