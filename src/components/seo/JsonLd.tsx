@@ -20,8 +20,7 @@ export function LocalBusinessSchema() {
         name: 'Membriko',
         description: 'Especialistas em membranas EPDM em Portugal. Impermeabilização de coberturas, piscinas, lagos, fundações e mais.',
         url: 'https://membriko.pt',
-        telephone: '+351-XXX-XXX-XXX',
-        email: 'info@membriko.pt',
+        email: 'geral@membriko.pt',
         address: {
           '@type': 'PostalAddress',
           addressCountry: 'PT',

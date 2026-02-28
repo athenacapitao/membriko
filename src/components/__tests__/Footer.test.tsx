@@ -28,8 +28,8 @@ describe('Footer', () => {
 
   it('shows contact email with mailto link', () => {
     render(<Footer locale="pt" />)
-    const emailLink = screen.getByRole('link', { name: /info@membriko\.pt/i })
-    expect(emailLink.getAttribute('href')).toBe('mailto:info@membriko.pt')
+    const emailLink = screen.getByRole('link', { name: /geral@membriko\.pt/i })
+    expect(emailLink.getAttribute('href')).toBe('mailto:geral@membriko.pt')
   })
 
   it('shows phone link', () => {

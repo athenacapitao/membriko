@@ -105,11 +105,11 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:info@membriko.pt"
+                  href="mailto:geral@membriko.pt"
                   className="flex items-center gap-2 text-sm text-text-muted hover:text-white transition-colors"
                 >
                   <Mail size={15} className="shrink-0 text-accent" />
-                  info@membriko.pt
+                  geral@membriko.pt
                 </a>
               </li>
               <li>

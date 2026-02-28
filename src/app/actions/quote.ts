@@ -34,7 +34,7 @@ export async function submitQuote(data: QuoteFormData): Promise<QuoteResult> {
     if (process.env.RESEND_API_KEY) {
       const { Resend } = await import('resend')
       const resend = new Resend(process.env.RESEND_API_KEY)
-      const notificationEmail = process.env.NOTIFICATION_EMAIL ?? 'info@membriko.pt'
+      const notificationEmail = process.env.NOTIFICATION_EMAIL ?? 'geral@membriko.pt'
 
       // Notification to team
       await resend.emails.send({
