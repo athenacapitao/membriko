@@ -114,11 +114,11 @@ export function Footer({ locale }: FooterProps): React.JSX.Element {
               </li>
               <li>
                 <a
-                  href="tel:+351000000000"
+                  href="tel:+351912596037"
                   className="flex items-center gap-2 text-sm text-text-muted hover:text-white transition-colors"
                 >
                   <Phone size={15} className="shrink-0 text-accent" />
-                  +351 XXX XXX XXX
+                  +351 912 596 037
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-text-muted">
